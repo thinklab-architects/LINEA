@@ -15,14 +15,16 @@ import Footer from './components/Footer';
 import ProductDetail from './components/ProductDetail';
 import JournalDetail from './components/JournalDetail';
 import { ViewState } from './types';
+import { useProducts } from './hooks/useProducts';
 
 function App() {
   const [view, setView] = useState<ViewState>({ type: 'home' });
+  const { products } = useProducts();
 
   // Handle navigation (clicks on Navbar or Footer links)
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
     e.preventDefault();
-    
+
     // If we are not home, go home first
     if (view.type !== 'home') {
       setView({ type: 'home' });
@@ -35,10 +37,10 @@ function App() {
 
   const scrollToSection = (targetId: string) => {
     if (!targetId) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-        return;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
     }
-    
+
     const element = document.getElementById(targetId);
     if (element) {
       // Manual scroll calculation to account for fixed header
@@ -61,29 +63,31 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[#F5F2EB] font-sans text-[#2C2A26] selection:bg-[#D6D1C7] selection:text-[#2C2A26]">
-      <Navbar 
-          onNavClick={handleNavClick} 
+      <Navbar
+        onNavClick={handleNavClick}
       />
-      
+
       <main>
         {view.type === 'home' && (
           <>
             <Hero />
-            <ProductGrid onProductClick={(p) => {
+            <ProductGrid
+              products={products}
+              onProductClick={(p) => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
                 setView({ type: 'product', product: p });
-            }} />
+              }} />
             <About />
             <Journal onArticleClick={(a) => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                setView({ type: 'journal', article: a });
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+              setView({ type: 'journal', article: a });
             }} />
           </>
         )}
 
         {view.type === 'product' && (
-          <ProductDetail 
-            product={view.product} 
+          <ProductDetail
+            product={view.product}
             onBack={() => {
               setView({ type: 'home' });
               setTimeout(() => scrollToSection('products'), 50);
@@ -92,15 +96,15 @@ function App() {
         )}
 
         {view.type === 'journal' && (
-          <JournalDetail 
-            article={view.article} 
+          <JournalDetail
+            article={view.article}
             onBack={() => setView({ type: 'home' })}
           />
         )}
       </main>
 
       <Footer onLinkClick={handleNavClick} />
-      
+
       <Assistant />
     </div>
   );
