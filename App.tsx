@@ -10,7 +10,7 @@ import Hero from './components/Hero';
 import ProductGrid from './components/ProductGrid';
 import About from './components/About';
 import Journal from './components/Journal';
-import Assistant from './components/Assistant';
+
 import Footer from './components/Footer';
 import ProductDetail from './components/ProductDetail';
 import JournalDetail from './components/JournalDetail';
@@ -105,7 +105,7 @@ function App() {
 
       <Footer onLinkClick={handleNavClick} />
 
-      <Assistant />
+
     </div>
   );
 }
