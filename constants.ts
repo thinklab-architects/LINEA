@@ -9,10 +9,13 @@ import { Product, JournalArticle } from './types';
 // Images
 import tornado1 from './images/Tornado Vase/1.jpg';
 import tornado2 from './images/Tornado Vase/2.jpg';
+import tornado3 from './images/Tornado Vase/3.jpg';
 import flowing1 from './images/Flowing Silence Pot/1.jpg';
 import flowing2 from './images/Flowing Silence Pot/2.jpg';
+import flowing3 from './images/Flowing Silence Pot/3.jpg';
 import milkyWay1 from './images/Milky Way Flow/1.jpg';
 import milkyWay2 from './images/Milky Way Flow/2.jpg';
+import milkyWay3 from './images/Milky Way Flow/3.jpg';
 
 // Placeholder Shopee URL - in a real app, this would be the specific product link
 const SHOPEE_STORE_URL = 'https://shopee.tw/linea.design.tw';
@@ -34,7 +37,8 @@ export const PRODUCTS: Product[] = [
         imageUrl: tornado1,
         gallery: [
             tornado1,
-            tornado2
+            tornado2,
+            tornado3
         ],
         features: ['Parametric Design', 'Light Diffusion', 'Bio-Polymer Material'],
         featuresZh: ['參數化設計', '光影漫射結構', '環保生物聚合物'],
@@ -56,7 +60,8 @@ export const PRODUCTS: Product[] = [
         imageUrl: flowing1,
         gallery: [
             flowing1,
-            flowing2
+            flowing2,
+            flowing3
         ],
         features: ['Continuous Geometry', 'Matte White Finish', 'Architectural Form'],
         featuresZh: ['連續幾何曲面', '霧面潔白質感', '建築流線造型'],
@@ -78,7 +83,8 @@ export const PRODUCTS: Product[] = [
         imageUrl: milkyWay1,
         gallery: [
             milkyWay1,
-            milkyWay2
+            milkyWay2,
+            milkyWay3
         ],
         features: ['Layered Diffusion', 'Ambient Glow', 'Sculptural Statement'],
         featuresZh: ['層疊漫射技術', '氛圍光感', '雕塑感造型'],
