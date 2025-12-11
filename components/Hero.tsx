@@ -4,9 +4,21 @@
 */
 
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import cover1 from '../images/cover paage/1.jpg';
+import cover2 from '../images/cover paage/2.jpg';
 
 const Hero: React.FC = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const images = [cover1, cover2];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % images.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [images.length]);
+
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
     e.preventDefault();
     const element = document.getElementById(targetId);
@@ -32,16 +44,23 @@ const Hero: React.FC = () => {
   return (
     <section className="relative w-full h-screen min-h-[800px] overflow-hidden bg-[#D6D1C7]">
 
-      {/* Background Image - Ethereal/Fluid/Light */}
-      <div className="absolute inset-0 w-full h-full">
-        <img
-          src="https://images.unsplash.com/photo-1507643179173-442f8552932c?auto=format&fit=crop&q=80&w=2000"
-          alt="Abstract fluid white forms and light"
-          className="w-full h-full object-cover brightness-[0.85] contrast-[1.05]"
-        />
-        {/* Soft Mist Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#433E38]/20 to-[#2C2A26]/40 mix-blend-multiply"></div>
-      </div>
+      {/* Background Images - Carousel */}
+      {images.map((src, index) => (
+        <div
+          key={src}
+          className={`absolute inset-0 w-full h-full transition-opacity duration-[2000ms] ease-in-out ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+            }`}
+        >
+          <img
+            src={src}
+            alt={`Hero background ${index + 1}`}
+            className="w-full h-full object-cover brightness-[0.85] contrast-[1.05]"
+          />
+        </div>
+      ))}
+
+      {/* Soft Mist Overlay - stays on top */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#433E38]/20 to-[#2C2A26]/40 mix-blend-multiply z-0"></div>
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-center items-start text-left md:items-center md:text-center px-6">
