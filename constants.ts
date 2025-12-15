@@ -16,6 +16,12 @@ import flowing3 from './images/Flowing Silence Pot/3.jpg';
 import milkyWay1 from './images/Milky Way Flow/1.jpg';
 import milkyWay2 from './images/Milky Way Flow/2.jpg';
 import milkyWay3 from './images/Milky Way Flow/3.jpg';
+import aether1 from './images/Aether Spire/1.png';
+import aether2 from './images/Aether Spire/2.png';
+import aether3 from './images/Aether Spire/3.png';
+import virtual1 from './images/Virtual Corridors  Vases/1.png';
+import virtual2 from './images/Virtual Corridors  Vases/2.JPG';
+import virtual3 from './images/Virtual Corridors  Vases/3.png';
 
 // Placeholder Shopee URL - in a real app, this would be the specific product link
 const SHOPEE_STORE_URL = 'https://shopee.tw/linea.design.tw';
@@ -154,6 +160,52 @@ export const PRODUCTS: Product[] = [
         ],
         features: ['Laser Etched', 'Acrylic/Resin', 'Set of 4'],
         featuresZh: ['雷射蝕刻', '壓克力/樹脂', '四件組'],
+        shopeeUrl: SHOPEE_STORE_URL
+    },
+    {
+        id: 'p7',
+        name: 'Aether Spire',
+        nameZh: '以太・尖塔',
+        tagline: 'Light ascending.',
+        taglineZh: '光之飛升',
+        description: 'Description coming soon.',
+        descriptionZh: '描述即將上線。',
+        longDescription: 'Full description coming soon.',
+        longDescriptionZh: '完整描述即將上線。',
+        price: 999,
+        category: 'Object',
+        categoryZh: '物件',
+        imageUrl: aether1,
+        gallery: [
+            aether1,
+            aether2,
+            aether3
+        ],
+        features: ['Feature 1', 'Feature 2'],
+        featuresZh: ['特色1', '特色2'],
+        shopeeUrl: SHOPEE_STORE_URL
+    },
+    {
+        id: 'p8',
+        name: 'Virtual Corridors',
+        nameZh: '虛擬迴廊',
+        tagline: 'Digital architecture.',
+        taglineZh: '數位建築',
+        description: 'Description coming soon.',
+        descriptionZh: '描述即將上線。',
+        longDescription: 'Full description coming soon.',
+        longDescriptionZh: '完整描述即將上線。',
+        price: 999,
+        category: 'Home',
+        categoryZh: '家飾',
+        imageUrl: virtual1,
+        gallery: [
+            virtual1,
+            virtual2,
+            virtual3
+        ],
+        features: ['Feature 1', 'Feature 2'],
+        featuresZh: ['特色1', '特色2'],
         shopeeUrl: SHOPEE_STORE_URL
     }
 ];
