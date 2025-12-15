@@ -96,53 +96,52 @@ export const PRODUCTS: Product[] = [
         featuresZh: ['層疊漫射技術', '氛圍光感', '雕塑感造型'],
         shopeeUrl: SHOPEE_STORE_URL
     },
-    },
-{
-    id: 'p7',
+    {
+        id: 'p7',
         name: 'Aether Spire',
-            nameZh: '以太・尖塔',
-                tagline: 'Light ascending.',
-                    taglineZh: '光之飛升',
-                        description: 'Description coming soon.',
-                            descriptionZh: '描述即將上線。',
-                                longDescription: 'Full description coming soon.',
-                                    longDescriptionZh: '完整描述即將上線。',
-                                        price: 999,
-                                            category: 'Object',
-                                                categoryZh: '物件',
-                                                    imageUrl: aether1,
-                                                        gallery: [
-                                                            aether1,
-                                                            aether2,
-                                                            aether3
-                                                        ],
-                                                            features: ['Feature 1', 'Feature 2'],
-                                                                featuresZh: ['特色1', '特色2'],
-                                                                    shopeeUrl: SHOPEE_STORE_URL
-},
-{
-    id: 'p8',
+        nameZh: '以太・尖塔',
+        tagline: 'Light ascending.',
+        taglineZh: '光之飛升',
+        description: 'Description coming soon.',
+        descriptionZh: '描述即將上線。',
+        longDescription: 'Full description coming soon.',
+        longDescriptionZh: '完整描述即將上線。',
+        price: 999,
+        category: 'Object',
+        categoryZh: '物件',
+        imageUrl: aether1,
+        gallery: [
+            aether1,
+            aether2,
+            aether3
+        ],
+        features: ['Feature 1', 'Feature 2'],
+        featuresZh: ['特色1', '特色2'],
+        shopeeUrl: SHOPEE_STORE_URL
+    },
+    {
+        id: 'p8',
         name: 'Virtual Corridors',
-            nameZh: '虛擬迴廊',
-                tagline: 'Digital architecture.',
-                    taglineZh: '數位建築',
-                        description: 'Description coming soon.',
-                            descriptionZh: '描述即將上線。',
-                                longDescription: 'Full description coming soon.',
-                                    longDescriptionZh: '完整描述即將上線。',
-                                        price: 999,
-                                            category: 'Home',
-                                                categoryZh: '家飾',
-                                                    imageUrl: virtual1,
-                                                        gallery: [
-                                                            virtual1,
-                                                            virtual2,
-                                                            virtual3
-                                                        ],
-                                                            features: ['Feature 1', 'Feature 2'],
-                                                                featuresZh: ['特色1', '特色2'],
-                                                                    shopeeUrl: SHOPEE_STORE_URL
-}
+        nameZh: '虛擬迴廊',
+        tagline: 'Digital architecture.',
+        taglineZh: '數位建築',
+        description: 'Description coming soon.',
+        descriptionZh: '描述即將上線。',
+        longDescription: 'Full description coming soon.',
+        longDescriptionZh: '完整描述即將上線。',
+        price: 999,
+        category: 'Home',
+        categoryZh: '家飾',
+        imageUrl: virtual1,
+        gallery: [
+            virtual1,
+            virtual2,
+            virtual3
+        ],
+        features: ['Feature 1', 'Feature 2'],
+        featuresZh: ['特色1', '特色2'],
+        shopeeUrl: SHOPEE_STORE_URL
+    }
 ];
 
 export const JOURNAL_ARTICLES: JournalArticle[] = [
