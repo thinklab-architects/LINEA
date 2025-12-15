@@ -49,7 +49,7 @@ async function fetchAirtableData() {
     let offset = null;
 
     do {
-        const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_NAME}?view=Grid%20view${offset ? `&offset=${offset}` : ''}`;
+        const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_NAME}${offset ? `?offset=${offset}` : ''}`;
         const response = await fetch(url, {
             headers: { Authorization: `Bearer ${API_KEY}` }
         });
@@ -77,6 +77,9 @@ async function sync() {
     try {
         const records = await fetchAirtableData();
         console.log(`Found ${records.length} records.`);
+        if (records.length > 0) {
+            console.log('First record fields:', JSON.stringify(records[0].fields, null, 2));
+        }
 
         const processedProducts = [];
 
