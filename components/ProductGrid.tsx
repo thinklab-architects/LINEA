@@ -17,6 +17,7 @@ interface ProductGridProps {
 }
 
 const ProductGrid: React.FC<ProductGridProps> = ({ products, loading, onProductClick }) => {
+  console.log("ProductGrid received products:", products);
   const [activeCategory, setActiveCategory] = useState('All');
 
   const filteredProducts = useMemo(() => {

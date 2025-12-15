@@ -111,12 +111,16 @@ async function sync() {
                     const ext = path.extname(img.filename) || '.jpg';
                     const filename = `${i + 1}${ext}`;
                     const localPath = path.join(productDir, filename);
-                    const publicUrl = `/images/dynamic/${name.replace(/[^a-z0-9]/gi, '_')}/${filename}`; // Use 'base' path
+                    // Revert to including /LINEA because on GH Pages it is needed if not using relative ./
+                    const publicUrl = `/LINEA/images/dynamic/${name.replace(/[^a-z0-9]/gi, '_')}/${filename}`;
 
                     // Only download if changed (simplification: just overwrite for now to be safe)
                     try {
                         await downloadImage(img.url, localPath);
-                        if (i === 0) imageUrl = publicUrl;
+                        if (i === 0) {
+                            imageUrl = publicUrl;
+                            console.log(`    - Assigned imageUrl: ${imageUrl}`);
+                        }
                         gallery.push(publicUrl);
                     } catch (err) {
                         console.error(`    - Failed to download ${img.url}:`, err);
