@@ -96,118 +96,53 @@ export const PRODUCTS: Product[] = [
         featuresZh: ['層疊漫射技術', '氛圍光感', '雕塑感造型'],
         shopeeUrl: SHOPEE_STORE_URL
     },
-    {
-        id: 'p4',
-        name: 'Helix Cuff',
-        nameZh: '螺旋・手鐲',
-        tagline: 'DNA of design.',
-        taglineZh: '設計的基因序列',
-        description: 'A silver cuff that mimics the twisting growth patterns found in nature.',
-        descriptionZh: '模仿自然界生長扭轉模式的純銀手鐲。',
-        longDescription: 'Architecture often mimics the efficiency of biology. The Helix Cuff captures the moment a straight line twists into a curve. Crafted from sterling silver, it features the same parametric logic as our larger home objects, scaled down to the intimacy of the wrist.',
-        longDescriptionZh: '建築往往模仿生物學的高效能。Helix 手鐲捕捉了直線扭轉為曲線的那一瞬間。以純銀打造，它採用了與我們大型家飾相同的參數化邏輯，縮小至手腕親密的尺度。',
-        price: 165,
-        category: 'Jewelry',
-        categoryZh: '首飾',
-        imageUrl: 'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&q=80&w=1000',
-        gallery: [
-            'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&q=80&w=1000',
-            'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&q=80&w=1000'
-        ],
-        features: ['Sterling Silver', 'Ergonomic Fit', 'Fluid Geometry'],
-        featuresZh: ['925純銀', '人體工學貼合', '流體幾何'],
-        shopeeUrl: SHOPEE_STORE_URL
     },
-    {
-        id: 'p5',
-        name: 'Voronoi Earrings',
-        nameZh: '細胞・耳環',
-        tagline: 'Cellular beauty.',
-        taglineZh: '細胞結構之美',
-        description: 'Intricate lattice earrings based on cellular structures found in leaves and dragonfly wings.',
-        descriptionZh: '源自葉脈與蜻蜓翅膀細胞結構的錯綜網格耳環。',
-        longDescription: 'Lightweight yet structurally complex, these earrings utilize the Voronoi pattern found throughout nature—from drying earth to leaf veins. They cast beautiful, complex shadows and represent the perfect union of computational design and natural beauty.',
-        longDescriptionZh: '輕盈卻結構複雜，這些耳環運用了自然界中無處不在的 Voronoi 圖樣——從乾裂的大地到葉片的紋理。它們投射出美麗而複雜的陰影，代表了運算設計與自然之美的完美結合。',
-        price: 110,
-        category: 'Jewelry',
-        categoryZh: '首飾',
-        imageUrl: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=1000',
-        gallery: [
-            'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=1000',
-            'https://images.unsplash.com/photo-1630019852942-f89202989a51?auto=format&fit=crop&q=80&w=1000'
-        ],
-        features: ['3D Printed Cast', 'Lightweight', 'Nature Inspired'],
-        featuresZh: ['3D列印鑄造', '極致輕盈', '師法自然'],
-        shopeeUrl: SHOPEE_STORE_URL
-    },
-    {
-        id: 'p6',
-        name: 'Lace Coaster Set',
-        nameZh: '光影・杯墊組',
-        tagline: 'Shadow play.',
-        taglineZh: '桌上的光影遊戲',
-        description: 'Delicate, laser-etched coasters featuring microscopic architectural diagrams.',
-        descriptionZh: '精緻雷射蝕刻杯墊，呈現微觀的建築圖學。',
-        longDescription: 'A series of intricate line drawings brought to physical form. These coasters act as small blueprints for the table. When light hits them, they extend their footprint through shadow, blurring the boundary between the object and the surface it rests on.',
-        longDescriptionZh: '將錯綜複雜的線條圖轉化為實體。這些杯墊如同餐桌上的微型藍圖。當光線照射時，它們透過陰影延伸其足跡，模糊了物件與桌面之間的界線。',
-        price: 55,
-        category: 'Object',
-        categoryZh: '物件',
-        imageUrl: 'https://images.unsplash.com/photo-1517135390602-d35d72493979?auto=format&fit=crop&q=80&w=1000',
-        gallery: [
-            'https://images.unsplash.com/photo-1517135390602-d35d72493979?auto=format&fit=crop&q=80&w=1000',
-            'https://images.unsplash.com/photo-1526434473860-29c322744888?auto=format&fit=crop&q=80&w=1000'
-        ],
-        features: ['Laser Etched', 'Acrylic/Resin', 'Set of 4'],
-        featuresZh: ['雷射蝕刻', '壓克力/樹脂', '四件組'],
-        shopeeUrl: SHOPEE_STORE_URL
-    },
-    {
-        id: 'p7',
+{
+    id: 'p7',
         name: 'Aether Spire',
-        nameZh: '以太・尖塔',
-        tagline: 'Light ascending.',
-        taglineZh: '光之飛升',
-        description: 'Description coming soon.',
-        descriptionZh: '描述即將上線。',
-        longDescription: 'Full description coming soon.',
-        longDescriptionZh: '完整描述即將上線。',
-        price: 999,
-        category: 'Object',
-        categoryZh: '物件',
-        imageUrl: aether1,
-        gallery: [
-            aether1,
-            aether2,
-            aether3
-        ],
-        features: ['Feature 1', 'Feature 2'],
-        featuresZh: ['特色1', '特色2'],
-        shopeeUrl: SHOPEE_STORE_URL
-    },
-    {
-        id: 'p8',
+            nameZh: '以太・尖塔',
+                tagline: 'Light ascending.',
+                    taglineZh: '光之飛升',
+                        description: 'Description coming soon.',
+                            descriptionZh: '描述即將上線。',
+                                longDescription: 'Full description coming soon.',
+                                    longDescriptionZh: '完整描述即將上線。',
+                                        price: 999,
+                                            category: 'Object',
+                                                categoryZh: '物件',
+                                                    imageUrl: aether1,
+                                                        gallery: [
+                                                            aether1,
+                                                            aether2,
+                                                            aether3
+                                                        ],
+                                                            features: ['Feature 1', 'Feature 2'],
+                                                                featuresZh: ['特色1', '特色2'],
+                                                                    shopeeUrl: SHOPEE_STORE_URL
+},
+{
+    id: 'p8',
         name: 'Virtual Corridors',
-        nameZh: '虛擬迴廊',
-        tagline: 'Digital architecture.',
-        taglineZh: '數位建築',
-        description: 'Description coming soon.',
-        descriptionZh: '描述即將上線。',
-        longDescription: 'Full description coming soon.',
-        longDescriptionZh: '完整描述即將上線。',
-        price: 999,
-        category: 'Home',
-        categoryZh: '家飾',
-        imageUrl: virtual1,
-        gallery: [
-            virtual1,
-            virtual2,
-            virtual3
-        ],
-        features: ['Feature 1', 'Feature 2'],
-        featuresZh: ['特色1', '特色2'],
-        shopeeUrl: SHOPEE_STORE_URL
-    }
+            nameZh: '虛擬迴廊',
+                tagline: 'Digital architecture.',
+                    taglineZh: '數位建築',
+                        description: 'Description coming soon.',
+                            descriptionZh: '描述即將上線。',
+                                longDescription: 'Full description coming soon.',
+                                    longDescriptionZh: '完整描述即將上線。',
+                                        price: 999,
+                                            category: 'Home',
+                                                categoryZh: '家飾',
+                                                    imageUrl: virtual1,
+                                                        gallery: [
+                                                            virtual1,
+                                                            virtual2,
+                                                            virtual3
+                                                        ],
+                                                            features: ['Feature 1', 'Feature 2'],
+                                                                featuresZh: ['特色1', '特色2'],
+                                                                    shopeeUrl: SHOPEE_STORE_URL
+}
 ];
 
 export const JOURNAL_ARTICLES: JournalArticle[] = [
