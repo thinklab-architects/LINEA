@@ -111,7 +111,7 @@ async function sync() {
                     const ext = path.extname(img.filename) || '.jpg';
                     const filename = `${i + 1}${ext}`;
                     const localPath = path.join(productDir, filename);
-                    const publicUrl = `/LINEA/images/dynamic/${name.replace(/[^a-z0-9]/gi, '_')}/${filename}`; // Use 'base' path
+                    const publicUrl = `/images/dynamic/${name.replace(/[^a-z0-9]/gi, '_')}/${filename}`; // Use 'base' path
 
                     // Only download if changed (simplification: just overwrite for now to be safe)
                     try {
