@@ -4,6 +4,12 @@ const API_KEY = import.meta.env.VITE_AIRTABLE_API_KEY;
 const BASE_ID = import.meta.env.VITE_AIRTABLE_BASE_ID;
 const TABLE_NAME = import.meta.env.VITE_AIRTABLE_TABLE_NAME || 'Products';
 
+interface AirtableAttachment {
+    id: string;
+    url: string;
+    filename: string;
+}
+
 interface AirtableRecord {
     id: string;
     fields: {
@@ -21,6 +27,7 @@ interface AirtableRecord {
         Features?: string; // Expecting newline separated or comma separated string
         FeaturesZh?: string;
         ShopeeUrl?: string;
+        Images?: AirtableAttachment[];
     };
 }
 
@@ -51,6 +58,11 @@ export const fetchProductTexts = async (): Promise<Record<string, Partial<Produc
         data.records.forEach(record => {
             const f = record.fields;
             if (f.Name) {
+                // Parse images if available
+                const images = f.Images && f.Images.length > 0
+                    ? f.Images.map(img => img.url)
+                    : undefined;
+
                 productMap[f.Name] = {
                     nameZh: f.NameZh,
                     tagline: f.Tagline,
@@ -65,6 +77,9 @@ export const fetchProductTexts = async (): Promise<Record<string, Partial<Produc
                     shopeeUrl: f.ShopeeUrl,
                     features: f.Features ? f.Features.split('\n').filter(Boolean) : undefined,
                     featuresZh: f.FeaturesZh ? f.FeaturesZh.split('\n').filter(Boolean) : undefined,
+                    // Map Airtable images to product structure
+                    imageUrl: images ? images[0] : undefined,
+                    gallery: images,
                 };
             }
         });

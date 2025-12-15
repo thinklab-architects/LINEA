@@ -21,11 +21,13 @@ export const useProducts = () => {
                     const remoteData = airtableData[localProduct.name];
                     if (remoteData) {
                         // Merge local product with remote text data
-                        // We preserve local ID, image, and gallery
+                        // We preserve local ID. For images, we prioritize Airtable if available.
                         return {
                             ...localProduct,
                             ...remoteData,
                             // Ensure we don't accidentally overwrite strict local fields with undefined if missing in Airtable
+                            imageUrl: remoteData.imageUrl || localProduct.imageUrl,
+                            gallery: remoteData.gallery || localProduct.gallery,
                             features: remoteData.features || localProduct.features,
                             featuresZh: remoteData.featuresZh || localProduct.featuresZh,
                         };
