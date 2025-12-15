@@ -39,6 +39,9 @@ jobs:
         VITE_AIRTABLE_BASE_ID: ${{ secrets.VITE_AIRTABLE_BASE_ID }}
         VITE_AIRTABLE_TABLE_NAME: ${{ secrets.VITE_AIRTABLE_TABLE_NAME }}
 
+    - name: Debug Dist Content
+      run: ls -R dist
+
     - name: Setup Pages
       uses: actions/configure-pages@v5
 
