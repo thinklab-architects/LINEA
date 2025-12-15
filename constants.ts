@@ -19,9 +19,9 @@ import milkyWay3 from './images/Milky Way Flow/3.jpg';
 import aether1 from './images/Aether Spire/1.png';
 import aether2 from './images/Aether Spire/2.png';
 import aether3 from './images/Aether Spire/3.png';
-import virtual1 from './images/Virtual Corridors  Vases/1.png';
-import virtual2 from './images/Virtual Corridors  Vases/2.JPG';
-import virtual3 from './images/Virtual Corridors  Vases/3.png';
+import virtual1 from './images/Virtual Corridors Vases/1.png';
+import virtual2 from './images/Virtual Corridors Vases/2.JPG';
+import virtual3 from './images/Virtual Corridors Vases/3.png';
 
 // Placeholder Shopee URL - in a real app, this would be the specific product link
 const SHOPEE_STORE_URL = 'https://shopee.tw/linea.design.tw';
