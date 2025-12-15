@@ -95,7 +95,10 @@ async function sync() {
             let imageUrl = null;
             let gallery = [];
 
-            if (fields.Images && Array.isArray(fields.Images)) {
+            if (fields.Images) {
+                console.log(`  - Images field present. Type: ${typeof fields.Images}, IsArray: ${Array.isArray(fields.Images)}`);
+                if (Array.isArray(fields.Images)) console.log(`  - Length: ${fields.Images.length}`);
+
                 // Create product folder
                 const productDir = path.join(IMAGES_DIR, name.replace(/[^a-z0-9]/gi, '_')); // Sanitize
                 if (!fs.existsSync(productDir)) fs.mkdirSync(productDir, { recursive: true });
@@ -103,18 +106,24 @@ async function sync() {
                 // Download each image
                 for (let i = 0; i < fields.Images.length; i++) {
                     const img = fields.Images[i];
+                    console.log(`    - Downloading image ${i}: ${img.url} (filename: ${img.filename})`);
+
                     const ext = path.extname(img.filename) || '.jpg';
                     const filename = `${i + 1}${ext}`;
                     const localPath = path.join(productDir, filename);
                     const publicUrl = `/LINEA/images/dynamic/${name.replace(/[^a-z0-9]/gi, '_')}/${filename}`; // Use 'base' path
 
                     // Only download if changed (simplification: just overwrite for now to be safe)
-                    // console.log(`Downloading ${img.url} -> ${localPath}`);
-                    await downloadImage(img.url, localPath);
-
-                    if (i === 0) imageUrl = publicUrl;
-                    gallery.push(publicUrl);
+                    try {
+                        await downloadImage(img.url, localPath);
+                        if (i === 0) imageUrl = publicUrl;
+                        gallery.push(publicUrl);
+                    } catch (err) {
+                        console.error(`    - Failed to download ${img.url}:`, err);
+                    }
                 }
+            } else {
+                console.log('  - No Images field or empty.');
             }
 
             processedProducts.push({
