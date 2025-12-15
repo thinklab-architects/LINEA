@@ -19,7 +19,7 @@ import { useProducts } from './hooks/useProducts';
 
 function App() {
   const [view, setView] = useState<ViewState>({ type: 'home' });
-  const { products } = useProducts();
+  const { products, loading } = useProducts();
 
   // Handle navigation (clicks on Navbar or Footer links)
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
@@ -73,6 +73,7 @@ function App() {
             <Hero />
             <ProductGrid
               products={products}
+              loading={loading}
               onProductClick={(p) => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
                 setView({ type: 'product', product: p });

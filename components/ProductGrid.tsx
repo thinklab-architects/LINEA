@@ -12,10 +12,11 @@ const categories = ['All', 'Jewelry', 'Home', 'Object', 'Archive'];
 
 interface ProductGridProps {
   products: Product[];
+  loading?: boolean;
   onProductClick: (product: Product) => void;
 }
 
-const ProductGrid: React.FC<ProductGridProps> = ({ products, onProductClick }) => {
+const ProductGrid: React.FC<ProductGridProps> = ({ products, loading, onProductClick }) => {
   const [activeCategory, setActiveCategory] = useState('All');
 
   const filteredProducts = useMemo(() => {
@@ -38,8 +39,8 @@ const ProductGrid: React.FC<ProductGridProps> = ({ products, onProductClick }) =
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
                 className={`text-sm uppercase tracking-widest pb-1 border-b transition-all duration-300 ${activeCategory === cat
-                    ? 'border-[#2C2A26] text-[#2C2A26]'
-                    : 'border-transparent text-[#A8A29E] hover:text-[#2C2A26]'
+                  ? 'border-[#2C2A26] text-[#2C2A26]'
+                  : 'border-transparent text-[#A8A29E] hover:text-[#2C2A26]'
                   }`}
               >
                 {cat}
@@ -48,12 +49,18 @@ const ProductGrid: React.FC<ProductGridProps> = ({ products, onProductClick }) =
           </div>
         </div>
 
-        {/* Large Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-20">
-          {filteredProducts.map(product => (
-            <ProductCard key={product.id} product={product} onClick={onProductClick} />
-          ))}
-        </div>
+        {/* Loading State or Grid */}
+        {loading ? (
+          <div className="flex justify-center items-center h-96">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#2C2A26]"></div>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-20 animate-fade-in-up">
+            {filteredProducts.map(product => (
+              <ProductCard key={product.id} product={product} onClick={onProductClick} />
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );
