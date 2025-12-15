@@ -36,7 +36,7 @@ if (!API_KEY || !BASE_ID) {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = path.resolve(__dirname, '../public');
-const DATA_DIR = path.resolve(__dirname, '../src/data');
+const DATA_DIR = path.resolve(__dirname, '../data');
 const IMAGES_DIR = path.join(PUBLIC_DIR, 'images', 'dynamic');
 
 // Ensure directories exist
