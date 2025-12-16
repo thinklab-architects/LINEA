@@ -69,6 +69,40 @@
     "sortNumber": 2
   },
   {
+    "id": "rectAw5ygeDOUwCpC",
+    "name": "Velo Lamp",
+    "nameZh": "漣光緒",
+    "tagline": "Where light flows, form unfolds.",
+    "taglineZh": "光無常形，褶疊為境。",
+    "description": "The Velo Lamp casts a gentle, ambient glow from its exquisitely folded shade, a study in organic geometry. Its form is a dialogue between light and structure, defining space with soft illumination.",
+    "descriptionZh": "漣光緒檯燈以其精緻摺疊的燈罩，散發柔和環境光，乃有機幾何之研究。其形體為光與結構之對話，以溫婉之光輝界定空間。",
+    "longDescription": "Inspired by the rhythmic undulations found in nature and the precise craft of digital fabrication, the Velo Lamp embodies LINEA's commitment to material honesty and sculptural presence. Each fold and curve of the shade is meticulously engineered to harness and diffuse light, transforming harsh luminescence into a soft, inviting radiance. This piece transcends mere utility, serving as a contemplative object that shapes the atmosphere of a room, creating subtle plays of light and shadow that shift with the observer's gaze. It is a testament to the beauty found at the intersection of fluid form and static design.",
+    "longDescriptionZh": "漣光緒檯燈之靈感，源於自然界之律動波紋，並融合數位精工之藝，彰顯LINEA對材質本真與雕塑語彙之追求。燈罩上每一摺痕與弧線，皆經精密設計，旨在捕捉並柔化光源，將刺目光芒轉化為溫潤宜人之輝。此作超越器物實用之範疇，儼然成為一思辨之物，形塑空間氛圍，其光影流轉之妙，隨觀者視角而異。是為流動形體與靜態設計交會之際，所綻放之美學印記。",
+    "price": 22800,
+    "category": "Home",
+    "categoryZh": "家飾",
+    "imageUrl": "/LINEA/images/dynamic/Velo_Lamp/1.JPG",
+    "gallery": [
+      "/LINEA/images/dynamic/Velo_Lamp/1.JPG",
+      "/LINEA/images/dynamic/Velo_Lamp/2.JPG",
+      "/LINEA/images/dynamic/Velo_Lamp/3.JPG"
+    ],
+    "features": [
+      "Sculptural folded shade design",
+      "Diffused, warm ambient light",
+      "Minimalist slender profile",
+      "Crafted from durable, translucent material"
+    ],
+    "featuresZh": [
+      "雕塑感摺疊燈罩",
+      "柔和溫暖環境光",
+      "極簡纖細燈身",
+      "採用耐用半透材質精製"
+    ],
+    "shopeeUrl": "https://shopee.tw/linea.design.tw",
+    "sortNumber": 3
+  },
+  {
     "id": "recXB9peN1TOkH9vL",
     "name": "Milky Way Flow",
     "nameZh": "銀河光流",
@@ -98,7 +132,7 @@
       "雕塑感造型"
     ],
     "shopeeUrl": "https://shopee.tw/linea.design.tw",
-    "sortNumber": 3
+    "sortNumber": 4
   },
   {
     "id": "recdGPK6ohYJYI7LM",
@@ -130,6 +164,6 @@
       "建築流線造型"
     ],
     "shopeeUrl": "https://shopee.tw/linea.design.tw",
-    "sortNumber": 4
+    "sortNumber": 5
   }
 ]
