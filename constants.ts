@@ -7,21 +7,8 @@ import React from 'react';
 import { Product, JournalArticle } from './types';
 
 // Images
-import tornado1 from './images/Tornado Vase/1.jpg';
-import tornado2 from './images/Tornado Vase/2.jpg';
-import tornado3 from './images/Tornado Vase/3.jpg';
-import flowing1 from './images/Flowing Silence Pot/1.jpg';
-import flowing2 from './images/Flowing Silence Pot/2.jpg';
-import flowing3 from './images/Flowing Silence Pot/3.jpg';
-import milkyWay1 from './images/Milky Way Flow/1.jpg';
-import milkyWay2 from './images/Milky Way Flow/2.jpg';
-import milkyWay3 from './images/Milky Way Flow/3.jpg';
-import aether1 from './images/Aether Spire/1.png';
-import aether2 from './images/Aether Spire/2.png';
-import aether3 from './images/Aether Spire/3.png';
-import virtual1 from './images/Virtual Corridors Vases/1.png';
-import virtual2 from './images/Virtual Corridors Vases/2.JPG';
-import virtual3 from './images/Virtual Corridors Vases/3.png';
+// Note: Product images are now handled dynamically via Airtable sync or public folder
+// Static imports removed to prevent build errors for missing files
 
 // Placeholder Shopee URL - in a real app, this would be the specific product link
 const SHOPEE_STORE_URL = 'https://shopee.tw/linea.design.tw';
@@ -40,12 +27,8 @@ export const PRODUCTS: Product[] = [
         price: 145,
         category: 'Home',
         categoryZh: '家飾',
-        imageUrl: tornado1,
-        gallery: [
-            tornado1,
-            tornado2,
-            tornado3
-        ],
+        imageUrl: '', // Sourced from Airtable
+        gallery: [], // Sourced from Airtable
         features: ['Parametric Design', 'Light Diffusion', 'Bio-Polymer Material'],
         featuresZh: ['參數化設計', '光影漫射結構', '環保生物聚合物'],
         shopeeUrl: SHOPEE_STORE_URL
@@ -63,12 +46,8 @@ export const PRODUCTS: Product[] = [
         price: 120,
         category: 'Home',
         categoryZh: '家飾',
-        imageUrl: flowing1,
-        gallery: [
-            flowing1,
-            flowing2,
-            flowing3
-        ],
+        imageUrl: '',
+        gallery: [],
         features: ['Continuous Geometry', 'Matte White Finish', 'Architectural Form'],
         featuresZh: ['連續幾何曲面', '霧面潔白質感', '建築流線造型'],
         shopeeUrl: SHOPEE_STORE_URL
@@ -86,12 +65,8 @@ export const PRODUCTS: Product[] = [
         price: 280,
         category: 'Object',
         categoryZh: '物件',
-        imageUrl: milkyWay1,
-        gallery: [
-            milkyWay1,
-            milkyWay2,
-            milkyWay3
-        ],
+        imageUrl: '',
+        gallery: [],
         features: ['Layered Diffusion', 'Ambient Glow', 'Sculptural Statement'],
         featuresZh: ['層疊漫射技術', '氛圍光感', '雕塑感造型'],
         shopeeUrl: SHOPEE_STORE_URL
@@ -109,12 +84,8 @@ export const PRODUCTS: Product[] = [
         price: 999,
         category: 'Object',
         categoryZh: '物件',
-        imageUrl: aether1,
-        gallery: [
-            aether1,
-            aether2,
-            aether3
-        ],
+        imageUrl: '',
+        gallery: [],
         features: ['Feature 1', 'Feature 2'],
         featuresZh: ['特色1', '特色2'],
         shopeeUrl: SHOPEE_STORE_URL
@@ -132,12 +103,8 @@ export const PRODUCTS: Product[] = [
         price: 999,
         category: 'Home',
         categoryZh: '家飾',
-        imageUrl: virtual1,
-        gallery: [
-            virtual1,
-            virtual2,
-            virtual3
-        ],
+        imageUrl: '',
+        gallery: [],
         features: ['Feature 1', 'Feature 2'],
         featuresZh: ['特色1', '特色2'],
         shopeeUrl: SHOPEE_STORE_URL
