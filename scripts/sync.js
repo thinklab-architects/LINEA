@@ -158,9 +158,13 @@ async function sync() {
                 gallery: gallery,  // Local paths
                 features: fields.Features ? fields.Features.split('\n') : [],
                 featuresZh: fields.FeaturesZh ? fields.FeaturesZh.split('\n') : [],
-                shopeeUrl: fields.ShopeeUrl
+                shopeeUrl: fields.ShopeeUrl,
+                sortNumber: fields.Sort_Number ? parseInt(fields.Sort_Number) : 9999
             });
         }
+
+        // Sort by Sort_Number
+        processedProducts.sort((a, b) => (a.sortNumber || 9999) - (b.sortNumber || 9999));
 
         // Save JSON
         const outputPath = path.join(DATA_DIR, 'syncedProducts.json');

@@ -23,6 +23,7 @@ export interface Product {
   features: string[];
   featuresZh: string[];
   shopeeUrl?: string; // Link to Shopee product/store
+  sortNumber?: number; // Order for display
 }
 
 export interface JournalArticle {
@@ -33,7 +34,7 @@ export interface JournalArticle {
   excerpt: string;
   excerptZh: string;
   image: string;
-  content: React.ReactNode; 
+  content: React.ReactNode;
 }
 
 export interface ChatMessage {
@@ -49,7 +50,7 @@ export enum LoadingState {
   SUCCESS = 'SUCCESS'
 }
 
-export type ViewState = 
+export type ViewState =
   | { type: 'home' }
   | { type: 'product', product: Product }
   | { type: 'journal', article: JournalArticle };
