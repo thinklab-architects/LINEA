@@ -12,8 +12,12 @@
     "price": 9800,
     "category": "Home",
     "categoryZh": "家飾品",
-    "imageUrl": null,
-    "gallery": [],
+    "imageUrl": "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.JPG",
+    "gallery": [
+      "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.JPG",
+      "/LINEA/images/dynamic/Virtual_Corridors_Vases/2.png",
+      "/LINEA/images/dynamic/Virtual_Corridors_Vases/3.png"
+    ],
     "features": [
       "Intricate, open-weave structural",
       "  design",
@@ -42,8 +46,12 @@
     "price": 28000,
     "category": "Object",
     "categoryZh": "物件",
-    "imageUrl": null,
-    "gallery": [],
+    "imageUrl": "/LINEA/images/dynamic/Milky_Way_Flow/1.jpg",
+    "gallery": [
+      "/LINEA/images/dynamic/Milky_Way_Flow/1.jpg",
+      "/LINEA/images/dynamic/Milky_Way_Flow/2.jpg",
+      "/LINEA/images/dynamic/Milky_Way_Flow/3.jpg"
+    ],
     "features": [
       "Layered Diffusion",
       "Ambient Glow",
@@ -69,8 +77,12 @@
     "price": 8800,
     "category": "Object",
     "categoryZh": "物件",
-    "imageUrl": null,
-    "gallery": [],
+    "imageUrl": "/LINEA/images/dynamic/Aether_Spire/1.png",
+    "gallery": [
+      "/LINEA/images/dynamic/Aether_Spire/1.png",
+      "/LINEA/images/dynamic/Aether_Spire/2.png",
+      "/LINEA/images/dynamic/Aether_Spire/3.png"
+    ],
     "features": [
       "Organic architectural form",
       "Dynamic interplay of light and shadow",
@@ -98,8 +110,12 @@
     "price": 12000,
     "category": "Home",
     "categoryZh": "家飾",
-    "imageUrl": null,
-    "gallery": [],
+    "imageUrl": "/LINEA/images/dynamic/Flowing_Silence_Pot/1.jpg",
+    "gallery": [
+      "/LINEA/images/dynamic/Flowing_Silence_Pot/1.jpg",
+      "/LINEA/images/dynamic/Flowing_Silence_Pot/2.jpg",
+      "/LINEA/images/dynamic/Flowing_Silence_Pot/3.jpg"
+    ],
     "features": [
       "Continuous Geometry",
       "Matte White Finish",
