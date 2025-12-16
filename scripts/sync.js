@@ -156,10 +156,13 @@ async function sync() {
         fs.writeFileSync(outputPath, JSON.stringify(processedProducts, null, 2));
         console.log(`Successfully synced ${processedProducts.length} products to ${outputPath}`);
 
+
     } catch (error) {
         console.error('Sync failed:', error);
         process.exit(1);
     }
 }
 
+// Trigger deployment for Airtable Sync
+console.log('Starting sync process...');
 sync();
