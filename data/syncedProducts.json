@@ -12,11 +12,11 @@
     "price": 9800,
     "category": "Home",
     "categoryZh": "家飾品",
-    "imageUrl": "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.JPG",
+    "imageUrl": "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.png",
     "gallery": [
-      "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.JPG",
+      "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.png",
       "/LINEA/images/dynamic/Virtual_Corridors_Vases/2.png",
-      "/LINEA/images/dynamic/Virtual_Corridors_Vases/3.png"
+      "/LINEA/images/dynamic/Virtual_Corridors_Vases/3.JPG"
     ],
     "features": [
       "Intricate, open-weave structural",
