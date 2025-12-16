@@ -5,6 +5,7 @@ on:
     branches: [ main ]
   schedule:
     - cron: '0 16 * * *' # Runs at 16:00 UTC (00:00 Taiwan Time) daily
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 permissions:
   contents: write
