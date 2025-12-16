@@ -95,17 +95,32 @@ async function sync() {
             let imageUrl = null;
             let gallery = [];
 
-            if (fields.Images) {
-                console.log(`  - Images field present. Type: ${typeof fields.Images}, IsArray: ${Array.isArray(fields.Images)}`);
-                if (Array.isArray(fields.Images)) console.log(`  - Length: ${fields.Images.length}`);
+            // Process Images
+            let imageUrl = null;
+            let gallery = [];
+
+            // New Schema: Images1 (Primary), Images2 (Secondary), Images3 (Rest)
+            // Aggregate all images into one list for consistent processing
+            const allImages = [];
+            if (fields.Images1 && Array.isArray(fields.Images1)) allImages.push(...fields.Images1);
+            if (fields.Images2 && Array.isArray(fields.Images2)) allImages.push(...fields.Images2);
+            if (fields.Images3 && Array.isArray(fields.Images3)) allImages.push(...fields.Images3);
+
+            // Fallback for legacy "Images" field if still present
+            if (allImages.length === 0 && fields.Images && Array.isArray(fields.Images)) {
+                allImages.push(...fields.Images);
+            }
+
+            if (allImages.length > 0) {
+                console.log(`  - Found ${allImages.length} images across Images1/2/3.`);
 
                 // Create product folder
                 const productDir = path.join(IMAGES_DIR, name.replace(/[^a-z0-9]/gi, '_')); // Sanitize
                 if (!fs.existsSync(productDir)) fs.mkdirSync(productDir, { recursive: true });
 
                 // Download each image
-                for (let i = 0; i < fields.Images.length; i++) {
-                    const img = fields.Images[i];
+                for (let i = 0; i < allImages.length; i++) {
+                    const img = allImages[i];
                     console.log(`    - Downloading image ${i}: ${img.url} (filename: ${img.filename})`);
 
                     const ext = path.extname(img.filename) || '.jpg';
@@ -127,7 +142,7 @@ async function sync() {
                     }
                 }
             } else {
-                console.log('  - No Images field or empty.');
+                console.log('  - No images found in Images1, Images2, Images3, or Images.');
             }
 
             processedProducts.push({
