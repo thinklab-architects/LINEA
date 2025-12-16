@@ -95,10 +95,6 @@ async function sync() {
             let imageUrl = null;
             let gallery = [];
 
-            // Process Images
-            let imageUrl = null;
-            let gallery = [];
-
             // New Schema: Images1 (Primary), Images2 (Secondary), Images3 (Rest)
             // Aggregate all images into one list for consistent processing
             const allImages = [];
