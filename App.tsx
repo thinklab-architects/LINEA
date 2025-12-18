@@ -62,7 +62,10 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F5F2EB] font-sans text-[#2C2A26] selection:bg-[#D6D1C7] selection:text-[#2C2A26]">
+    <div
+      className="min-h-screen bg-[#F5F2EB] font-sans text-[#2C2A26] selection:bg-[#D6D1C7] selection:text-[#2C2A26]"
+      onContextMenu={(e) => e.preventDefault()}
+    >
       <Navbar
         onNavClick={handleNavClick}
       />
