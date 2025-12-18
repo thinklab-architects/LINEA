@@ -27,7 +27,7 @@ export interface Product {
 }
 
 export interface JournalArticle {
-  id: number;
+  id: string | number;
   title: string;
   titleZh: string;
   date: string;
