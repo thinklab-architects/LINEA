@@ -11,6 +11,7 @@ const __dirname = path.dirname(__filename);
 const CONTENT_DIR = path.join(__dirname, '../content/journal');
 const PUBLIC_IMAGE_DIR = path.join(__dirname, '../public/images/journal');
 const OUTPUT_FILE = path.join(__dirname, '../data/journal-data.json');
+const BASE_URL = '/LINEA';
 
 // Ensure directories exist
 if (!fs.existsSync(CONTENT_DIR)) {
@@ -125,7 +126,7 @@ function copyImage(imageFilename, sourceMarkdownFile) {
     fs.copyFileSync(sourcePath, destPath);
     console.log(`Copied image: ${imageFilename} -> ${destFilename}`);
 
-    return `/images/journal/${destFilename}`;
+    return `${BASE_URL}/images/journal/${destFilename}`;
 }
 
 processJournal();
