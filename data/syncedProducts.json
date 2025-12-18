@@ -209,8 +209,12 @@
     "price": 4800,
     "category": "Home",
     "categoryZh": "家飾",
-    "imageUrl": null,
-    "gallery": [],
+    "imageUrl": "/LINEA/images/dynamic/Spira_Vessel/1.png",
+    "gallery": [
+      "/LINEA/images/dynamic/Spira_Vessel/1.png",
+      "/LINEA/images/dynamic/Spira_Vessel/2.png",
+      "/LINEA/images/dynamic/Spira_Vessel/3.png"
+    ],
     "features": [
       "Dynamically sculpted spiral form",
       "Matte white ceramic finish",
