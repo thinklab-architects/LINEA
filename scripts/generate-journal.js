@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 const CONTENT_DIR = path.join(__dirname, '../content/journal');
 const PUBLIC_IMAGE_DIR = path.join(__dirname, '../public/images/journal');
-const OUTPUT_FILE = path.join(__dirname, '../src/data/journal-data.json');
+const OUTPUT_FILE = path.join(__dirname, '../data/journal-data.json');
 
 // Ensure directories exist
 if (!fs.existsSync(CONTENT_DIR)) {
