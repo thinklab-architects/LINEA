@@ -33,8 +33,7 @@ Our *Flowing Silence Pot* was born from this thought. How do we give form to sil
 
 我們的 *Flowing Silence Pot* 便是由此而生。我們如何賦予寂靜形態？我們觀察風如何侵蝕石頭，水如何形塑大地。其曲線是連續的、無盡的，如同時間本身。
 
-![Flowing Silence Sketch](journal images/test_journal_image.png)
-
+![[journal images/test_journal_image.png]]
 ## Rigid vs. Organic
 
 There is a tension between the digital precision of our printing process and the organic chaos of the natural world. We embrace this. The layer lines of our 3D printed ceramics are like geographical strata—marking the passage of time, layer by layer, second by second.
