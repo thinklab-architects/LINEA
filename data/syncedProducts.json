@@ -10,7 +10,7 @@
     "longDescription": "The Virtual Corridors Vase series, inspired\n  by natural growth patterns and digitally crafted geometries, presents a\n  captivating study in material honesty. Each piece is an architectural sketch\n  in three dimensions, where sinuous lines define both presence and absence.\n  Designed to frame rather than simply contain, these vessels invite a dialogue\n  between their intricate forms, the light that illuminates them, and the\n  botanical elements they delicately cradle, creating a living tableau of art\n  and nature.",
     "longDescriptionZh": "虛實迴廊花器系列，靈感源自自然生長脈絡與數位工藝幾何，呈現一場關於材質本真性的迷人研究。每件作品皆是三維空間中的建築素描，其中蜿蜒的線條同時定義著存在與虛無。設計旨在襯托而非單純容納，這些器皿邀請其精巧形態、投射之光線，以及所輕柔承載的植物之間進行對話，共同創造一幅藝術與自然共生的動態畫卷。",
     "price": 9800,
-    "category": "Home",
+    "category": "HOME",
     "categoryZh": "家飾",
     "imageUrl": "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.png",
     "gallery": [
@@ -45,7 +45,7 @@
     "longDescription": "Inspired by the intricate geometries found in nature and the digital realm, the Aether Spire is a testament to material honesty and structural elegance. Its curvilinear forms rise in a delicate yet robust helix, inviting contemplation of space through its woven design. This piece functions as both an architectural object and a vessel, celebrating the profound relationship between void and volume. Crafted with precision, it stands as a subtle anchor in any modern interior, reflecting light with nuanced grace.",
     "longDescriptionZh": "交織之柱，靈感源自自然與數位領域中錯綜複雜的幾何結構，是材質誠實與結構優雅的見證。其彎曲線條以一種細膩而堅固的螺旋姿態向上延伸，透過其編織般的設計，引人思考空間的本質。這件作品既是建築物件，亦是容器，歌頌著虛實之間的深刻關係。精準打造，它在任何現代室內空間中皆能作為一處低調的視覺重心，以細緻的優雅反射光線。",
     "price": 8800,
-    "category": "Home",
+    "category": "HOME",
     "categoryZh": "家飾",
     "imageUrl": "/LINEA/images/dynamic/Aether_Spire/1.png",
     "gallery": [
@@ -79,7 +79,7 @@
     "longDescription": "Inspired by the rhythmic undulations found in nature and the precise craft of digital fabrication, the Velo Lamp embodies LINEA's commitment to material honesty and sculptural presence. Each fold and curve of the shade is meticulously engineered to harness and diffuse light, transforming harsh luminescence into a soft, inviting radiance. This piece transcends mere utility, serving as a contemplative object that shapes the atmosphere of a room, creating subtle plays of light and shadow that shift with the observer's gaze. It is a testament to the beauty found at the intersection of fluid form and static design.",
     "longDescriptionZh": "漣光緒檯燈之靈感，源於自然界之律動波紋，並融合數位精工之藝，彰顯LINEA對材質本真與雕塑語彙之追求。燈罩上每一摺痕與弧線，皆經精密設計，旨在捕捉並柔化光源，將刺目光芒轉化為溫潤宜人之輝。此作超越器物實用之範疇，儼然成為一思辨之物，形塑空間氛圍，其光影流轉之妙，隨觀者視角而異。是為流動形體與靜態設計交會之際，所綻放之美學印記。",
     "price": 22800,
-    "category": "light",
+    "category": "LIGHT",
     "categoryZh": "燈具",
     "imageUrl": "/LINEA/images/dynamic/Velo_Lamp/1.JPG",
     "gallery": [
@@ -113,7 +113,7 @@
     "longDescription": "Like the gentle flow of the Milky Way, light drifts and expands through space. Layered surfaces breathe under illumination, swirling like cosmic nebulae. This light object transforms the atmosphere of a room, creating a soft, dimensional glow.",
     "longDescriptionZh": "如銀河般溫柔流動，光線在空間中漂浮、擴展。層疊的表面在照明下彷彿有了呼吸，像宇宙星雲般盤旋。這件光之雕塑轉化了空間的氛圍，創造出柔軟而具深度的光暈。",
     "price": 28000,
-    "category": "light",
+    "category": "LIGHT",
     "categoryZh": "燈具",
     "imageUrl": "/LINEA/images/dynamic/Milky_Way_Flow/1.jpg",
     "gallery": [
@@ -145,12 +145,12 @@
     "longDescription": "Where motion meets stillness — each curve traces the rhythm of light and air. Soft, continuous, and endlessly evolving. This vessel is designed to hold life, acting as a serene architectural landscape for your plants.",
     "longDescriptionZh": "動態與靜止的交會點——每一道曲線都追隨著光與空氣的節奏。柔軟、連續，且生生不息地演變。這不僅是一個容器，更是一片為植物而生的寧靜建築地景。",
     "price": 12000,
-    "category": "Home",
+    "category": "HOME",
     "categoryZh": "家飾",
-    "imageUrl": "/LINEA/images/dynamic/Flowing_Silence_Pot/1.jpg",
+    "imageUrl": "/LINEA/images/dynamic/Flowing_Silence_Pot/1.png",
     "gallery": [
-      "/LINEA/images/dynamic/Flowing_Silence_Pot/1.jpg",
-      "/LINEA/images/dynamic/Flowing_Silence_Pot/2.jpg",
+      "/LINEA/images/dynamic/Flowing_Silence_Pot/1.png",
+      "/LINEA/images/dynamic/Flowing_Silence_Pot/2.JPG",
       "/LINEA/images/dynamic/Flowing_Silence_Pot/3.jpg"
     ],
     "features": [
@@ -177,7 +177,7 @@
     "longDescription": "Drawing inspiration from organic structures and the ephemeral beauty of light, the Lumina Petals earrings embody a delicate interplay of form and transparency. Each earring features multiple layers of precision-crafted translucent elements, evoking the subtle grace of petals unfurling. A carefully placed faceted crystal acts as a focal point, catching and dispersing light to create an ethereal glow, transforming the wearer into a canvas for dancing shadows and radiant reflections.",
     "longDescriptionZh": "此款耳飾，汲取自然有機之形，融匯數位精工之藝，塑空靈之美。以層疊錯落之透光花瓣，擬造清晨凝露之態，捕捉光線輕盈之舞。中央晶體，宛若晨曦之淚，折射萬千光譜，使佩戴者舉手投足間，皆成光影流轉之景，詩意盡顯。",
     "price": 3800,
-    "category": "Jewelry",
+    "category": "JEWELRY",
     "categoryZh": "飾品",
     "imageUrl": "/LINEA/images/dynamic/Lumina_Petals_Earrings/1.jpg",
     "gallery": [
@@ -210,7 +210,7 @@
     "longDescription": "The Spira Vessel captures the essence of a natural eddy, translated into a precise architectural form. Its intricate, undulating surface plays with light and shadow, revealing new depths from every angle. Crafted with meticulous attention to material honesty, this piece is designed to hold not just flora, but the very contemplation of form and the subtle dance of existence, enriching any minimalist interior with its profound presence.",
     "longDescriptionZh": "斯器汲自然之旋渦，化作精確之建築語彙。其曲折表面，光影相逐，層次迭出，觀之生境。秉持材質本真，精工細作，此器非徒容花草，亦為承載思緒，映照萬物微妙律動之境，於極簡空間中，予人深邃之感。",
     "price": 4800,
-    "category": "Home",
+    "category": "HOME",
     "categoryZh": "家飾",
     "imageUrl": "/LINEA/images/dynamic/Spira_Vessel/1.png",
     "gallery": [
@@ -244,7 +244,7 @@
     "longDescription": "Inspired by the fleeting beauty of a natural bloom and the precision of digital craft, the Chrono Bloom earrings embody a tension between chaos and order. Each piece is meticulously formed, creating a multi-faceted surface that interacts dynamically with light, casting nuanced shadows and reflections. They are a wearable architectural statement, inviting contemplation on the interplay of material honesty and transient beauty.",
     "longDescriptionZh": "靈感汲取自瞬息萬變之自然生機，並融合精密數位工藝，「瞬光凝形」耳飾於混沌與秩序間尋覓張力。每件皆經匠心雕琢，以多重切面折射光影，織就錯綜複雜之光華。此乃可佩戴之建築語彙，引人深思物質誠實與倏忽即逝之美。",
     "price": 12800,
-    "category": "Jewelry",
+    "category": "JEWELRY",
     "categoryZh": "飾品",
     "imageUrl": null,
     "gallery": [],
@@ -264,36 +264,6 @@
     "sortNumber": 9999
   },
   {
-    "id": "rec9pSYAIJBD1Hhs0",
-    "name": "Velo Lamp",
-    "nameZh": "漣光緒",
-    "tagline": "Where light flows, form unfolds.",
-    "taglineZh": "光無常形，褶疊為境。",
-    "description": "The Velo Lamp casts a gentle, ambient glow from its exquisitely folded shade, a study in organic geometry. Its form is a dialogue between light and structure, defining space with soft illumination.",
-    "descriptionZh": "漣光緒檯燈以其精緻摺疊的燈罩，散發柔和環境光，乃有機幾何之研究。其形體為光與結構之對話，以溫婉之光輝界定空間。",
-    "longDescription": "Inspired by the rhythmic undulations found in nature and the precise craft of digital fabrication, the Velo Lamp embodies LINEA's commitment to material honesty and sculptural presence. Each fold and curve of the shade is meticulously engineered to harness and diffuse light, transforming harsh luminescence into a soft, inviting radiance. This piece transcends mere utility, serving as a contemplative object that shapes the atmosphere of a room, creating subtle plays of light and shadow that shift with the observer's gaze. It is a testament to the beauty found at the intersection of fluid form and static design.",
-    "longDescriptionZh": "漣光緒檯燈之靈感，源於自然界之律動波紋，並融合數位精工之藝，彰顯LINEA對材質本真與雕塑語彙之追求。燈罩上每一摺痕與弧線，皆經精密設計，旨在捕捉並柔化光源，將刺目光芒轉化為溫潤宜人之輝。此作超越器物實用之範疇，儼然成為一思辨之物，形塑空間氛圍，其光影流轉之妙，隨觀者視角而異。是為流動形體與靜態設計交會之際，所綻放之美學印記。",
-    "price": 22800,
-    "category": "Home",
-    "categoryZh": "家飾",
-    "imageUrl": null,
-    "gallery": [],
-    "features": [
-      "Sculptural folded shade design",
-      "Diffused, warm ambient light",
-      "Minimalist slender profile",
-      "Crafted from durable, translucent material"
-    ],
-    "featuresZh": [
-      "雕塑感摺疊燈罩",
-      "柔和溫暖環境光",
-      "極簡纖細燈身",
-      "採用耐用半透材質精製"
-    ],
-    "shopeeUrl": "https://shopee.tw/linea.design.tw",
-    "sortNumber": 9999
-  },
-  {
     "id": "recAvcwdcBhRgzMFy",
     "name": "Latent Bloom",
     "nameZh": "花蘊",
@@ -304,8 +274,8 @@
     "longDescription": "The work resembles a seed or a bud, holding within it an unseen reserve of force. Rather than imitating natural flora, Latent Bloom proposes an artificial potential—an inner energy shaped by logic, structure, and human intervention. Here, natural genetic memory intertwines with artificial systems. The sculpture embodies a state of gestation, where nature and artifice are no longer opposed but mutually generative. This suspended moment anticipates the birth of a “second nature”—one that arises not from wilderness, but from cultivated order, layered construction, and intentional design.",
     "longDescriptionZh": "作品形態如同種子或花苞，內含尚未顯現的能量儲備。《花蘊》並非模仿自然花卉，而是提出一種人工的潛勢能——由結構、秩序與人為邏輯所孕育的生成力量。在此，自然的基因記憶與人工系統相互交纏。作品呈現一種「孕育中的狀態」，自然與人工不再對立，而是彼此生成。這個被暫停的瞬間，預示著一種「第二自然」的誕生——它並非來自野性，而是源於層疊構築、精密設計與被培養出的秩序。",
     "price": 30000,
-    "category": "Sculptural Painting",
-    "categoryZh": "藝術浮雕",
+    "category": "ART",
+    "categoryZh": "藝術",
     "imageUrl": null,
     "gallery": [],
     "features": [
@@ -331,7 +301,7 @@
     "longDescription": "Inspired by the gentle ripple of air and the organic unfolding of life, the Zephyr Vessel transforms the act of planting into an art form. Its undulating surfaces are meticulously crafted, inviting light to dance across its folds, creating a mesmerizing play of illumination and depth. This piece embodies LINEA's philosophy, where digital precision meets the poetic essence of nature, offering a sanctuary for botanical life to thrive within architectural elegance.",
     "longDescriptionZh": "衍波器承襲自然之輕柔律動，融匯數位工藝之精粹。其蜿蜒曲面，非僅塑形，更引光線流淌其間，幻化為無盡之光影敘事。此作，乃LINEA對極簡語彙之詮釋，使物質與虛空對話，令植物於建築詩意中，尋得棲所，續寫生長之哲思。",
     "price": 7200,
-    "category": "Home",
+    "category": "HOME",
     "categoryZh": "家飾",
     "imageUrl": null,
     "gallery": [],
@@ -361,7 +331,7 @@
     "longDescription": "Inspired by the paradox of static dynamism, the Aether Knot Studs are a testament to complex geometry realized with meticulous digital craft. Each piece features a continuous, flowing form that appears both knotted and unravelling, creating a miniature architectural sculpture for the ear. The polished metal surface reflects ambient light, casting subtle shadows that highlight the intricate contours, inviting a deeper appreciation of material honesty and spatial tension.",
     "longDescriptionZh": "迴轉之縛耳飾，靈感源自靜動相悖之理，以精湛數位工藝，鑄就繁複幾何之證。每件作品皆呈連續流動之形，似結亦似解，為耳畔賦予微型建築之姿。其琢磨金屬之面，映照環境之光，投射幽微之影，襯托細密輪廓，引人深究材質之誠與空間之張力。",
     "price": 8800,
-    "category": "Jewelry",
+    "category": "JEWELRY",
     "categoryZh": "飾品",
     "imageUrl": null,
     "gallery": [],
@@ -391,8 +361,8 @@
     "longDescription": "In Reclaimed Bloom, artificial flowers no longer exist as external constructs imposed upon nature, but become inseparable elements within the environment itself. The work reflects on a central question: as humans continuously reshape nature through artificial means, are we also witnessing the artificial gradually becoming nature’s own destination? Here, artificiality ceases to be an intervention and instead completes a cycle of return.",
     "longDescriptionZh": "在《花歸》中，人工之花不再作為外來的造物，而是成為生態環境的一部分。作品回應一個核心提問：當人類以人工不斷重塑自然時，我們是否也同時見證人工自身，逐步成為自然的歸宿？在此，人工不再是介入，而是完成一次循環性的回歸。",
     "price": 30000,
-    "category": "Sculptural Painting",
-    "categoryZh": "藝術浮雕",
+    "category": "ART",
+    "categoryZh": "藝術",
     "imageUrl": null,
     "gallery": [],
     "features": [
@@ -418,7 +388,7 @@
     "longDescription": "Inspired by the delicate drape of fine textiles, the Lumen Drape lamp captures the essence of light made tangible. Its unique pleated form, realized through advanced digital craftsmanship, allows illumination to cascade downwards, creating a dance of light and shadow within its structural folds. Crafted from a refined translucent material, it offers a warm, diffused glow that transforms any space into a sanctuary of calm. More than a light source, it is an architectural object, celebrating the poetic intersection of organic flow and precise geometry.",
     "longDescriptionZh": "凝光幔燈具，靈感源於纖維織物之輕柔垂墜，捕捉光之形體化為實質之精髓。其獨特褶紋形構，藉先進數位工藝實現，使光線如瀑般傾瀉而下，於結構褶層間演繹光影之舞。精製半透材質，散發溫暖而勻稱之輝光，轉化空間為靜謐之所。此非僅光源，乃建築之藝物，頌揚有機流動與精準幾何之詩意交會。",
     "price": 8500,
-    "category": "light",
+    "category": "LIGHT",
     "categoryZh": "燈具",
     "imageUrl": null,
     "gallery": [],
@@ -438,36 +408,6 @@
     "sortNumber": 9999
   },
   {
-    "id": "recXKHsTV7xtHpfA6",
-    "name": "Aether Spire",
-    "nameZh": "交織之柱",
-    "tagline": "Interweaving light and form.",
-    "taglineZh": "光影交織，結構新生。",
-    "description": "A sculptural vessel where organic lines converge to create a dynamic interplay of light and shadow.",
-    "descriptionZh": "一件雕塑性器皿，有機線條匯聚，創造光影動態交織。",
-    "longDescription": "Inspired by the intricate geometries found in nature and the digital realm, the Aether Spire is a testament to material honesty and structural elegance. Its curvilinear forms rise in a delicate yet robust helix, inviting contemplation of space through its woven design. This piece functions as both an architectural object and a vessel, celebrating the profound relationship between void and volume. Crafted with precision, it stands as a subtle anchor in any modern interior, reflecting light with nuanced grace.",
-    "longDescriptionZh": "交織之柱，靈感源自自然與數位領域中錯綜複雜的幾何結構，是材質誠實與結構優雅的見證。其彎曲線條以一種細膩而堅固的螺旋姿態向上延伸，透過其編織般的設計，引人思考空間的本質。這件作品既是建築物件，亦是容器，歌頌著虛實之間的深刻關係。精準打造，它在任何現代室內空間中皆能作為一處低調的視覺重心，以細緻的優雅反射光線。",
-    "price": 8800,
-    "category": "Home",
-    "categoryZh": "物件",
-    "imageUrl": null,
-    "gallery": [],
-    "features": [
-      "Organic architectural form",
-      "Dynamic interplay of light and shadow",
-      "Sculptural standalone piece",
-      "Matte, tactile finish"
-    ],
-    "featuresZh": [
-      "有機建築形態",
-      "光影動態交織",
-      "獨立雕塑擺件",
-      "啞光觸感飾面"
-    ],
-    "shopeeUrl": "https://shopee.tw/linea.design.tw",
-    "sortNumber": 9999
-  },
-  {
     "id": "recYs2aq6kyPoYVFM",
     "name": "Stellar Gyre",
     "nameZh": "流光之冕",
@@ -478,7 +418,7 @@
     "longDescription": "Inspired by the unseen forces that bind the cosmos and the precision of digital craft, the Stellar Gyre embodies a perpetual motion. Its multi-faceted surfaces are meticulously designed to interact with light, creating a continuous play of shadow and brilliance. Crafted from polished metal, it transcends mere adornment, standing as a testament to structural elegance and the poetic tension between solid form and ethereal radiance. A minimalist statement, it speaks volumes of the wearer's refined discernment.",
     "longDescriptionZh": "靈感汲取於宇宙無形之運律，並融匯數位工藝之極致精準，「流光之冕」寓含永恆之動態。其多重切面悉心雕琢，旨在與光影共舞，織就一齣不斷變幻之輝映戲碼。此物以精良金屬鑄造，非止於飾，更彰顯結構之雅，喻示物質與光芒間詩意之張力。其極簡語彙，卻盡顯佩戴者之卓然品味。",
     "price": 9800,
-    "category": "Jewelry",
+    "category": "JEWELRY",
     "categoryZh": "飾品",
     "imageUrl": null,
     "gallery": [],
@@ -508,7 +448,7 @@
     "longDescription": "Inspired by the organic undulations found in nature, yet crafted with digital precision, the Ripple Vessel explores the tension between structural form and fluid motion. Its distinct pleated surface is designed to capture and refract light, creating a subtle play of shadows that shifts throughout the day. More than a simple container, it is an architectural object that imbues any interior with a sense of calm and considered design, celebrating material honesty in its elegant silhouette.",
     "longDescriptionZh": "「褶流之器」靈感源於自然界有機律動，然以數位精工鑄就，探究結構與流動間之微妙張力。其獨特褶紋表面，旨在捕捉與折射光線，營造隨日時移轉之光影戲碼。此器非僅承載之具，亦為空間增添靜謐與深思之建築性物件，以優雅輪廓，頌揚材質之本真。",
     "price": 6800,
-    "category": "Home",
+    "category": "HOME",
     "categoryZh": "家飾",
     "imageUrl": null,
     "gallery": [],
@@ -538,7 +478,7 @@
     "longDescription": "Drawing inspiration from the organic complexity of natural growth patterns and the precision of digital craft, the Aether Coil Vessel is a testament to structural poetry. Its intricate, open-weave form invites contemplation, allowing light to cascade through its helical arms, casting dynamic shadows that shift with the day. Crafted to hold nature's quiet forms, it stands as a dialogue between the ephemeral and the enduring, a sculpture that breathes space into any environment.",
     "longDescriptionZh": "汲取自然生長之有機複雜性與數位工藝之精準，凝渦之器乃結構詩意之具現。其錯綜開放之編織形態，引人入深思，光線穿透螺旋臂間，投射出隨日輪轉之流動光影。為承載自然靜謐之姿而生，此器於倏忽與永恆間展開對話，為空間注入呼吸之雕塑。",
     "price": 8800,
-    "category": "Home",
+    "category": "HOME",
     "categoryZh": "物件",
     "imageUrl": null,
     "gallery": [],
@@ -568,7 +508,7 @@
     "longDescription": "Inspired by the ephemeral dance of fabric caught in a breeze, the Chrysalis Bowl transcends its utilitarian form to become a study in material poetry. Its undulating structure, crafted with meticulous precision, invites the eye to trace the interplay of light and shadow across its surface. This piece serves not merely as a container but as a sculptural presence, offering a moment of quiet contemplation on the inherent beauty of natural forms interpreted through a minimalist lens. It embodies LINEA's commitment to objects that enrich space with understated elegance and profound structural integrity.",
     "longDescriptionZh": "此作靈感源於微風拂過織物的瞬逝舞姿，逾越器用本質，昇華為材質之詩篇。其蜿蜒起伏之結構，以精妙工藝雕琢，引導視線追溯光影於其表面之錯落交織。此器非僅盛物，更是空間中之雕塑存在，於靜默中引人深思，探究極簡視角下自然形態之內蘊美學。體現LINEA以簡約雅緻及深刻結構，豐盈空間之品牌精神。",
     "price": 6800,
-    "category": "Home",
+    "category": "HOME",
     "categoryZh": "家飾",
     "imageUrl": null,
     "gallery": [],
@@ -588,34 +528,6 @@
     "sortNumber": 9999
   },
   {
-    "id": "recnqOkaDWQd8aCev",
-    "name": "Flourishing Bloom",
-    "nameZh": "花繁",
-    "tagline": "Flourishing Bloom",
-    "taglineZh": "人造生態，如花自生",
-    "description": "“Flourishing Bloom”\nreveals the spread and abundance of an artificial ecology.",
-    "descriptionZh": "《花繁》展現了人工生態的蔓延與繁盛。",
-    "longDescription": "The image of profuse blossoms is at once a natural gesture and an aggregation of man-made systems.\nIt symbolizes the shift of the artificial from imitation toward self-generation—through order, replication, and generative processes, a new landscape of prosperity emerges.\nThis is a realm of blooming richness that is artificial in origin, yet closely akin to nature.",
-    "longDescriptionZh": "繁花之象，既是自然的姿態，也是人造系統的聚合。它象徵人工由模仿走向自生，透過秩序、複製與生成，形成新的繁榮景觀。這是一種人造卻又近似自然的繁花盛境。",
-    "price": 30000,
-    "category": "Sculptural Painting",
-    "categoryZh": "藝術浮雕",
-    "imageUrl": null,
-    "gallery": [],
-    "features": [
-      "Hand-finished",
-      "Material Layering",
-      "Detail-oriented"
-    ],
-    "featuresZh": [
-      "手工修製",
-      "材質堆疊",
-      "細部精煉"
-    ],
-    "shopeeUrl": "https://shopee.tw/linea.design.tw",
-    "sortNumber": 9999
-  },
-  {
     "id": "recsXmhXpnOJuQu09",
     "name": "Molten Bloom",
     "nameZh": "花熔",
@@ -626,8 +538,8 @@
     "longDescription": "In Molten Bloom, nature and artificiality are no longer clearly separable, but interpenetrate and reshape one another. Familiar floral forms emerge through a process of fusion, yet appear subtly estranged. The work proposes a philosophical inquiry: when artificial generation and natural evolution begin to share the same logic of growth, the artificial may no longer imitate nature, but gradually transform into a distinct form of nature itself.",
     "longDescriptionZh": "在《花熔》中，自然與人工不再清晰可分，而是彼此滲透、相互鑄形。熟悉的花之形態在熔融過程中生成，卻帶著陌生的質感。作品提出一個哲思性的提問：當人工生成與自然演化共享同一種「生長邏輯」，人工是否正逐步轉化為一種獨立的自然形態？",
     "price": 30000,
-    "category": "Sculptural Painting",
-    "categoryZh": "藝術浮雕",
+    "category": "ART",
+    "categoryZh": "藝術",
     "imageUrl": null,
     "gallery": [],
     "features": [
@@ -653,7 +565,7 @@
     "longDescription": "Inspired by the organic elegance of natural vortices and the precision of digital craft, the Vortex Vessel reimagines the classic vase. Its intricate helical structure, meticulously rendered, creates a captivating dance of light and shadow across its matte surface. This piece serves not merely as a container but as a standalone architectural sculpture, defining space with its fluid geometry and material honesty. It embodies LINEA's philosophy of finding profound beauty in structural complexity and minimalist expression.",
     "longDescriptionZh": "旋流之器，啟發自自然渦流之有機雅緻與數位工藝之精確。其複雜之螺旋結構，經巧手呈現，於啞光表面映現光影婆娑之舞。此物非僅盛器，乃一獨立之建築雕塑，以流動幾何與材質之本真，界定空間。體現LINEA之哲學：於結構之繁複與極簡之表達中，尋得深邃之美。",
     "price": 12800,
-    "category": "Home",
+    "category": "HOME",
     "categoryZh": "家飾",
     "imageUrl": null,
     "gallery": [],
