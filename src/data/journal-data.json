@@ -1,0 +1,12 @@
+[
+  {
+    "id": "test-article-1",
+    "title": "Testing Obsidian Integration",
+    "titleZh": "測試 Obsidian 整合",
+    "date": "December 18, 2024",
+    "excerpt": "This is a test article to verify the Obsidian to Website publishing workflow.",
+    "excerptZh": "這是一篇測試文章，用於驗證 Obsidian 到網站的發佈流程。",
+    "image": "/images/journal/test-article-test_journal_image.png",
+    "content": "<h1>Hello from Obsidian</h1>\n<p>This content is written in <strong>Markdown</strong> and processed by our build script.</p>\n<h2>Subheading</h2>\n<p>We can support:</p>\n<ul>\n<li>Lists</li>\n<li><strong>Bold text</strong></li>\n<li><em>Italics</em></li>\n</ul>\n<p>And images:</p>\n<p><img src=\"/images/journal/test-article-test_journal_image.png\" alt=\"Test Image\"></p>\n<p><img src=\"/images/journal/test-article-test_journal_image.png\" alt=\"\"></p>\n"
+  }
+]

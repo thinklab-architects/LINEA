@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "generate-journal": "node scripts/generate-journal.js",
+    "prebuild": "npm run generate-journal",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -16,6 +18,8 @@
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "front-matter": "^4.0.2",
+    "marked": "^17.0.1",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }

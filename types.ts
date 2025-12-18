@@ -34,7 +34,7 @@ export interface JournalArticle {
   excerpt: string;
   excerptZh: string;
   image: string;
-  content: React.ReactNode;
+  content: string;
 }
 
 export interface ChatMessage {
