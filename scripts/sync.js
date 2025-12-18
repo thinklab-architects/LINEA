@@ -89,6 +89,12 @@ async function sync() {
 
             if (!name) continue;
 
+            // Filter by Status
+            if (fields.Status !== 'PUBLISH') {
+                console.log(`Skipping ${name} (Status: ${fields.Status})`);
+                continue;
+            }
+
             console.log(`Processing: ${name}`);
 
             // Process Images
