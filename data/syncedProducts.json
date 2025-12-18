@@ -179,8 +179,11 @@
     "price": 3800,
     "category": "Jewelry",
     "categoryZh": "飾品",
-    "imageUrl": null,
-    "gallery": [],
+    "imageUrl": "/LINEA/images/dynamic/Lumina_Petals_Earrings/1.jpg",
+    "gallery": [
+      "/LINEA/images/dynamic/Lumina_Petals_Earrings/1.jpg",
+      "/LINEA/images/dynamic/Lumina_Petals_Earrings/2.jpg"
+    ],
     "features": [
       "Multi-layered translucent design",
       "Faceted crystal light catcher",
