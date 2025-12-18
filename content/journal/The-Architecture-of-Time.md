@@ -1,7 +1,7 @@
 ---
-title: The Architecture of Time
+title: The Architecture of Time II
 titleZh: 時間的建築
-date: 2024-12-18
+date: 2025-12-18
 excerpt: How space holds memory, and how objects become the vessels of our quietest moments.
 excerptZh: 空間如何承載記憶，以及物件如何成為我們最靜謐時刻的容器。
 image: /LINEA/images/journal/architecture-of-time.jpg
