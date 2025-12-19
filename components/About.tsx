@@ -83,33 +83,59 @@ const About: React.FC = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[80vh]">
-        <div className="flex flex-col justify-center p-12 lg:p-24 bg-[#2C2A26] text-[#F5F2EB]">
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#A8A29E] mb-6">The Architect's Eye / 建築師之眼</span>
-          <h3 className="text-4xl md:text-5xl font-serif mb-2 text-[#F5F2EB] leading-tight">
-            Structure & Fragility.
-          </h3>
-          <h4 className="text-2xl md:text-3xl font-light text-[#A8A29E] mb-8">
-            結構與脆弱
-          </h4>
-          <p className="text-lg text-[#A8A29E] font-light leading-relaxed mb-6 max-w-md">
-            We play with the tension between strength and delicacy. Our 3D-printed lattices look fragile, like dried coral or lace, but possess the structural integrity of a truss.
-          </p>
-          <p className="text-base text-[#A8A29E] font-light leading-relaxed mb-12 max-w-md opacity-70">
-            我們遊走於力量與細緻之間的張力。我們 3D 列印的網格看似脆弱，如乾燥的珊瑚或蕾絲，卻擁有桁架般的結構完整性。這是一種新型態的物質性：輕盈、複雜且美麗。
-          </p>
-        </div>
-        <div className="relative h-[500px] lg:h-auto overflow-hidden group">
-          <ParallaxMedia
-            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
-            type="video"
-            poster="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200"
-            alt="Intricate white texture"
-            className="w-full h-full"
-            mediaClassName="transition-transform duration-[2s] group-hover:scale-105 brightness-90 grayscale"
-            speed={0.15}
-            scrollScrub={true}
-          />
+      {/* Designer Introduction */}
+      <div id="designers" className="py-24 px-6 md:px-12 bg-[#2C2A26] text-[#F5F2EB]">
+        <div className="max-w-[1800px] mx-auto">
+          <div className="flex flex-col md:flex-row items-baseline gap-4 mb-16 border-b border-[#F5F2EB]/10 pb-8">
+            <h2 className="text-4xl md:text-5xl font-serif leading-tight">Designers.</h2>
+            <h3 className="text-xl md:text-2xl font-light text-[#A8A29E]">設計師介紹</h3>
+          </div>
+
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
+            {[
+              {
+                name: "Designer One",
+                nameZh: "設計師一",
+                slogan: "Crafting silence through lines.",
+                img: "C:/Users/Lesle/.gemini/antigravity/brain/41cf53f8-9ce4-47fe-9bfc-5251cc500253/designer_portrait_1_1766144260335.png"
+              },
+              {
+                name: "Designer Two",
+                nameZh: "設計師二",
+                slogan: "The rhythm of minimal forms.",
+                img: "C:/Users/Lesle/.gemini/antigravity/brain/41cf53f8-9ce4-47fe-9bfc-5251cc500253/designer_portrait_2_1766144273872.png"
+              },
+              {
+                name: "Designer Three",
+                nameZh: "設計師三",
+                slogan: "Balance between code and chaos.",
+                img: "C:/Users/Lesle/.gemini/antigravity/brain/41cf53f8-9ce4-47fe-9bfc-5251cc500253/designer_portrait_3_1766144290371.png"
+              },
+              {
+                name: "Designer Four",
+                nameZh: "設計師四",
+                slogan: "Growing quiet flowing forms.",
+                img: "C:/Users/Lesle/.gemini/antigravity/brain/41cf53f8-9ce4-47fe-9bfc-5251cc500253/designer_portrait_4_1766144308905.png"
+              }
+            ].map((designer, idx) => (
+              <div key={idx} className="group flex flex-col items-center text-center">
+                <div className="w-full aspect-square overflow-hidden mb-6 bg-[#D6D1C7]/10">
+                  <img
+                    src={designer.img}
+                    alt={designer.name}
+                    className="w-full h-full object-cover grayscale brightness-90 contrast-110 group-hover:scale-105 transition-transform duration-700 ease-out"
+                  />
+                </div>
+                <div className="flex flex-col gap-1 mb-2">
+                  <span className="text-lg md:text-xl font-medium tracking-wide">{designer.name}</span>
+                  <span className="text-sm text-[#A8A29E] font-light">{designer.nameZh}</span>
+                </div>
+                <p className="text-sm md:text-base text-[#A8A29E] font-light italic mt-2 opacity-80 group-hover:opacity-100 transition-opacity duration-300">
+                  "{designer.slogan}"
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
