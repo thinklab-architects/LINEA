@@ -102,19 +102,19 @@ const About: React.FC = () => {
                 name: "DENG YE",
                 nameZh: "登業",
                 slogan: "The rhythm of minimal forms.",
-                img: "images/designers/2.png"
+                img: "images/designers/2.jpg"
               },
               {
                 name: "ZHI TING",
                 nameZh: "芷婷",
                 slogan: "Balance between code and chaos.",
-                img: "images/designers/3.png"
+                img: "images/designers/3.jpg"
               },
               {
                 name: "DAVID",
                 nameZh: "大惟",
                 slogan: "Growing quiet flowing forms.",
-                img: "images/designers/4.png"
+                img: "images/designers/4.jpg"
               }
             ].map((designer, idx) => (
               <div key={idx} className="group flex flex-col items-center text-center">
