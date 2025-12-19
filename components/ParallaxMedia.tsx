@@ -2,12 +2,13 @@ import React, { useRef, useEffect } from 'react';
 
 interface ParallaxMediaProps {
     src: string;
-    alt?: string; // Optional for video
-    type?: 'image' | 'video'; // Explicit type or auto-detect
+    alt?: string;
+    type?: 'image' | 'video';
     className?: string; // Class for the outer container
     mediaClassName?: string; // Class for the img/video element
     speed?: number; // Parallax speed factor
-    poster?: string; // For video
+    poster?: string;
+    scrollScrub?: boolean; // If true, video playback is controlled by scroll
 }
 
 const ParallaxMedia: React.FC<ParallaxMediaProps> = ({
@@ -17,10 +18,12 @@ const ParallaxMedia: React.FC<ParallaxMediaProps> = ({
     className = "",
     mediaClassName = "",
     speed = 0.15,
-    poster
+    poster,
+    scrollScrub = false
 }) => {
     const containerRef = useRef<HTMLDivElement>(null);
     const mediaWrapperRef = useRef<HTMLDivElement>(null);
+    const videoRef = useRef<HTMLVideoElement>(null);
 
     // Auto-detect type if not provided
     const isVideo = type === 'video' || src.match(/\.(mp4|webm|mov)$/i);
@@ -41,11 +44,29 @@ const ParallaxMedia: React.FC<ParallaxMediaProps> = ({
                 const elementCenterY = rect.top + rect.height / 2;
                 const distanceFromCenter = elementCenterY - centerY;
 
-                // Calculate offset
+                // 1. Parallax Position
                 const offset = distanceFromCenter * speed;
-
-                // Direct DOM manipulation for performance
                 mediaWrapperRef.current.style.transform = `translate3d(0, ${offset}px, 0)`;
+
+                // 2. Scroll Scrubbing (Video Only)
+                if (isVideo && scrollScrub && videoRef.current && videoRef.current.duration) {
+                    // Calculate progress: 0 when top enters bottom of screen, 1 when bottom leaves top of screen
+                    // Actually, let's map it so the video plays fully while the element traverses the viewport.
+
+                    // Total distance the element travels to cross the viewport = windowHeight + rect.height
+                    // Current position in that journey = windowHeight - rect.top
+                    const travelDistance = windowHeight + rect.height;
+                    const currentTravel = windowHeight - rect.top;
+
+                    let progress = currentTravel / travelDistance;
+                    // Clamp between 0 and 1
+                    progress = Math.max(0, Math.min(1, progress));
+
+                    // Set currentTime
+                    if (Number.isFinite(videoRef.current.duration)) {
+                        videoRef.current.currentTime = progress * videoRef.current.duration;
+                    }
+                }
             }
         };
 
@@ -59,7 +80,12 @@ const ParallaxMedia: React.FC<ParallaxMediaProps> = ({
             }
         };
 
-        updatePosition(); // Initial
+        // Initial setup
+        if (isVideo && scrollScrub && videoRef.current) {
+            // Ensure it's paused initially if we are scrubbing
+            videoRef.current.pause();
+        }
+        updatePosition();
 
         window.addEventListener('scroll', handleScroll, { passive: true });
         window.addEventListener('resize', updatePosition);
@@ -69,7 +95,7 @@ const ParallaxMedia: React.FC<ParallaxMediaProps> = ({
             window.removeEventListener('resize', updatePosition);
             if (animationFrameId) cancelAnimationFrame(animationFrameId);
         };
-    }, [speed]);
+    }, [speed, scrollScrub, isVideo]);
 
     return (
         <div ref={containerRef} className={`overflow-hidden relative ${className}`}>
@@ -83,10 +109,12 @@ const ParallaxMedia: React.FC<ParallaxMediaProps> = ({
             >
                 {isVideo ? (
                     <video
+                        ref={videoRef}
                         className={`w-full h-full object-cover ${mediaClassName}`}
-                        autoPlay
+                        // Only autoplay if scrubbing is NOT enabled
+                        autoPlay={!scrollScrub}
                         muted
-                        loop
+                        loop={!scrollScrub}
                         playsInline
                         poster={poster}
                     >

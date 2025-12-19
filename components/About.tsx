@@ -61,6 +61,7 @@ const About: React.FC = () => {
             className="w-full h-full"
             mediaClassName="transition-transform duration-[2s] group-hover:scale-105" // Preserve hover scale if possible
             speed={0.15}
+            scrollScrub={true}
           />
         </div>
         <div className="order-1 lg:order-2 flex flex-col justify-center p-12 lg:p-24 bg-[#D6D1C7]">
