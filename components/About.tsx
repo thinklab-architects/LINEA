@@ -88,7 +88,6 @@ const About: React.FC = () => {
         <div className="max-w-[1800px] mx-auto">
           <div className="flex flex-col items-center text-center gap-2 mb-20">
             <h2 className="text-4xl md:text-5xl font-serif leading-tight font-light">Designers</h2>
-            <h3 className="text-xl md:text-2xl font-light text-[#A8A29E]">設計師/建築師</h3>
           </div>
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
