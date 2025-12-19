@@ -16,8 +16,25 @@ interface ProductGridProps {
 
 const ProductGrid: React.FC<ProductGridProps> = ({ products, loading, onProductClick }) => {
   console.log("ProductGrid received products:", products);
-  const [activeCategory, setActiveCategory] = useState('All');
-  const [visibleCount, setVisibleCount] = useState(9);
+  // Determine initial count based on screen size
+  const getInitialCount = () => {
+    if (typeof window !== 'undefined') {
+      return window.innerWidth < 768 ? 4 : 9;
+    }
+    return 9;
+  };
+
+  const [visibleCount, setVisibleCount] = useState(9); // Default to 9, update in effect
+
+  useEffect(() => {
+    setVisibleCount(getInitialCount());
+
+    const handleResize = () => {
+      // Optional: adjust count on resize if needed, but maybe not to disrupt user interaction.
+      // For now, let's strictly follow "initial 2 rows" for mobile reset.
+    };
+  }, []);
+
 
   // Compute unique categories from products
   const categories = useMemo(() => {
@@ -47,24 +64,8 @@ const ProductGrid: React.FC<ProductGridProps> = ({ products, loading, onProductC
   }, [products]);
 
   const filteredProducts = useMemo(() => {
-    if (activeCategory === 'All') return products.filter(p => !p.category || p.category.toLowerCase() !== 'archive'); // Also hide Archive from All view? usually yes if it's "Archive".
-    // Wait, requirement said "Remove Archive". It implies Archive items shouldn't show up in the filter list. 
-    // If "All" is selected, should Archive items show? Usually "Archive" means hidden from main view.
-    // Let's assume Filter out Archive completely from UI based on "Delete ARCHIVE" request.
-
-    // Actually, "拿掉ARCHIVE" likely means allow user to not see it in the list.
-    // If I strictly follow: "All" view shows everything except Archive? Or shows everything including Archive but user can't select "Archive" tab?
-    // "Remove ARCHIVE" from the category list is explicit.
-    // Let's hide Archive items from "All" as well to be safe, or just hide the category button.
-    // Standard behavior: Archive items are only in Archive. If Archive button is gone, they are gone.
-    // Or maybe they are just old products.
-    // Let's filter 'Archive' items out of 'All' too to be safe, unless they fall into other categories? No, category is single.
-
-    // Re-reading: "Works裡的分類 要參照airtable裡的Category ... 並拿掉ARCHIVE".
-    // This implies the navigation/filtering shouldn't have Archive.
-
     if (activeCategory === 'All') {
-      return products.filter(p => p.category !== 'Archive');
+      return products.filter(p => !p.category || p.category.toLowerCase() !== 'archive');
     }
     return products.filter(p => p.category === activeCategory);
   }, [activeCategory, products]);
@@ -75,7 +76,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ products, loading, onProductC
 
   // Reset visible count when category changes
   useEffect(() => {
-    setVisibleCount(9);
+    setVisibleCount(getInitialCount());
   }, [activeCategory]);
 
   return (
@@ -114,7 +115,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ products, loading, onProductC
           </div>
         ) : (
           <>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-20 animate-fade-in-up">
+            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-4 md:gap-x-8 gap-y-12 md:gap-y-20 animate-fade-in-up">
               {displayedProducts.map(product => (
                 <ProductCard key={product.id} product={product} onClick={onProductClick} />
               ))}
@@ -123,7 +124,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ products, loading, onProductC
             {visibleCount < filteredProducts.length && (
               <div className="flex justify-center mt-20">
                 <button
-                  onClick={() => setVisibleCount(prev => prev + 9)}
+                  onClick={() => setVisibleCount(prev => prev + 9)} // Load 9 more
                   className="group relative px-12 py-4 overflow-hidden border border-[#2C2A26] text-[#2C2A26] hover:text-white transition-colors duration-500"
                 >
                   <span className="absolute inset-0 w-full h-full bg-[#2C2A26] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></span>
