@@ -23,7 +23,7 @@ const About: React.FC = () => {
         </div>
         <div className="md:w-2/3 max-w-2xl">
           <ParallaxMedia
-            src="https://videos.pexels.com/video-files/855564/855564-hd_1920_1080_25fps.mp4"
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
             type="video"
             alt="LINEA Design Studio - Digital Prototyping"
             className="w-full h-[400px] mb-12"
