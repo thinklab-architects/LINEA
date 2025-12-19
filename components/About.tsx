@@ -97,25 +97,25 @@ const About: React.FC = () => {
                 name: "Designer One",
                 nameZh: "設計師一",
                 slogan: "Crafting silence through lines.",
-                img: "C:/Users/Lesle/.gemini/antigravity/brain/41cf53f8-9ce4-47fe-9bfc-5251cc500253/designer_portrait_1_1766144260335.png"
+                img: "/images/designers/1.png"
               },
               {
                 name: "Designer Two",
                 nameZh: "設計師二",
                 slogan: "The rhythm of minimal forms.",
-                img: "C:/Users/Lesle/.gemini/antigravity/brain/41cf53f8-9ce4-47fe-9bfc-5251cc500253/designer_portrait_2_1766144273872.png"
+                img: "/images/designers/2.png"
               },
               {
                 name: "Designer Three",
                 nameZh: "設計師三",
                 slogan: "Balance between code and chaos.",
-                img: "C:/Users/Lesle/.gemini/antigravity/brain/41cf53f8-9ce4-47fe-9bfc-5251cc500253/designer_portrait_3_1766144290371.png"
+                img: "/images/designers/3.png"
               },
               {
                 name: "Designer Four",
                 nameZh: "設計師四",
                 slogan: "Growing quiet flowing forms.",
-                img: "C:/Users/Lesle/.gemini/antigravity/brain/41cf53f8-9ce4-47fe-9bfc-5251cc500253/designer_portrait_4_1766144308905.png"
+                img: "/images/designers/4.png"
               }
             ].map((designer, idx) => (
               <div key={idx} className="group flex flex-col items-center text-center">
