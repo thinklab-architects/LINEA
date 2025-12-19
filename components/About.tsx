@@ -5,7 +5,7 @@
 
 
 import React from 'react';
-import ParallaxImage from './ParallaxImage';
+import ParallaxMedia from './ParallaxMedia';
 
 const About: React.FC = () => {
   return (
@@ -36,11 +36,12 @@ const About: React.FC = () => {
             由建築師轉型的設計師領軍，我們的工作室運用數位工具模仿自然的生長模式。從龍捲風的螺旋到銀河的流動，我們的物件不只是被「製造」出來，而是從程式碼的線條中「生長」出來，凝固成靜謐、流動的形態。
           </p>
 
-          <ParallaxImage
-            src="https://images.unsplash.com/photo-1628133287820-2f3bbe35d55b?auto=format&fit=crop&q=80&w=1200"
+          <ParallaxMedia
+            src="https://videos.pexels.com/video-files/855564/855564-hd_1920_1080_25fps.mp4"
+            type="video"
             alt="LINEA Design Studio - Digital Prototyping"
             className="w-full h-[400px] mt-12"
-            imgClassName="grayscale contrast-[0.9] brightness-110"
+            mediaClassName="grayscale contrast-[0.9] brightness-110"
             speed={-0.15} // Slower background movement
           />
           <p className="text-sm font-medium uppercase tracking-widest text-[#A8A29E] mt-4">
@@ -52,11 +53,12 @@ const About: React.FC = () => {
       {/* Philosophy Blocks */}
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[80vh]">
         <div className="order-2 lg:order-1 relative h-[500px] lg:h-auto overflow-hidden group">
-          <ParallaxImage
-            src="https://images.unsplash.com/photo-1506152983158-b4a74a01c721?auto=format&fit=crop&q=80&w=1200"
+          <ParallaxMedia
+            src="https://videos.pexels.com/video-files/2759477/2759477-hd_1920_1080_30fps.mp4"
+            type="video"
             alt="White fluid abstract form"
             className="w-full h-full"
-            imgClassName="transition-transform duration-[2s] group-hover:scale-105" // Preserve hover scale if possible
+            mediaClassName="transition-transform duration-[2s] group-hover:scale-105" // Preserve hover scale if possible
             speed={0.15}
           />
         </div>
@@ -94,11 +96,12 @@ const About: React.FC = () => {
           </p>
         </div>
         <div className="relative h-[500px] lg:h-auto overflow-hidden group">
-          <ParallaxImage
-            src="https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?auto=format&fit=crop&q=80&w=1200"
+          <ParallaxMedia
+            src="https://videos.pexels.com/video-files/3163534/3163534-hd_1920_1080_30fps.mp4"
+            type="video"
             alt="Intricate white texture"
             className="w-full h-full"
-            imgClassName="transition-transform duration-[2s] group-hover:scale-105 brightness-90 grayscale"
+            mediaClassName="transition-transform duration-[2s] group-hover:scale-105 brightness-90 grayscale"
             speed={0.15}
           />
         </div>
