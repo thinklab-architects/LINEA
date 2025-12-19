@@ -122,7 +122,7 @@ const About: React.FC = () => {
                   <img
                     src={designer.img}
                     alt={designer.name}
-                    className="w-full h-full object-cover grayscale brightness-90 contrast-110 group-hover:scale-105 transition-transform duration-700 ease-out"
+                    className="w-full h-full object-cover grayscale brightness-90 contrast-110 group-hover:grayscale-0 group-hover:brightness-100 group-hover:contrast-100 group-hover:scale-105 transition-all duration-700 ease-out"
                   />
                 </div>
                 <div className="flex flex-col gap-1 mb-2">
