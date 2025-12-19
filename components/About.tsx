@@ -99,20 +99,20 @@ const About: React.FC = () => {
                 img: "images/designers/1.png"
               },
               {
-                name: "Designer Two",
-                nameZh: "設計師二",
+                name: "DENG YE",
+                nameZh: "登業",
                 slogan: "The rhythm of minimal forms.",
                 img: "images/designers/2.png"
               },
               {
-                name: "Designer Three",
-                nameZh: "設計師三",
+                name: "ZHI TING",
+                nameZh: "芷婷",
                 slogan: "Balance between code and chaos.",
                 img: "images/designers/3.png"
               },
               {
-                name: "Designer Four",
-                nameZh: "設計師四",
+                name: "DAVID",
+                nameZh: "大惟",
                 slogan: "Growing quiet flowing forms.",
                 img: "images/designers/4.png"
               }
