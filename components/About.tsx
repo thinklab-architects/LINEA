@@ -97,25 +97,25 @@ const About: React.FC = () => {
                 name: "Designer One",
                 nameZh: "設計師一",
                 slogan: "Crafting silence through lines.",
-                img: "/images/designers/1.png"
+                img: "images/designers/1.png"
               },
               {
                 name: "Designer Two",
                 nameZh: "設計師二",
                 slogan: "The rhythm of minimal forms.",
-                img: "/images/designers/2.png"
+                img: "images/designers/2.png"
               },
               {
                 name: "Designer Three",
                 nameZh: "設計師三",
                 slogan: "Balance between code and chaos.",
-                img: "/images/designers/3.png"
+                img: "images/designers/3.png"
               },
               {
                 name: "Designer Four",
                 nameZh: "設計師四",
                 slogan: "Growing quiet flowing forms.",
-                img: "/images/designers/4.png"
+                img: "images/designers/4.png"
               }
             ].map((designer, idx) => (
               <div key={idx} className="group flex flex-col items-center text-center">
