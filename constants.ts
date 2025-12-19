@@ -12,6 +12,8 @@ import { Product, JournalArticle } from './types';
 
 // Placeholder Shopee URL - in a real app, this would be the specific product link
 const SHOPEE_STORE_URL = 'https://shopee.tw/linea.design.tw';
+export const INSTAGRAM_URL = 'https://www.instagram.com/linea.design.tw/'; // Placeholder
+export const FACEBOOK_URL = 'https://www.facebook.com/linea.design.tw/';   // Placeholder
 
 export const PRODUCTS: Product[] = [
     {

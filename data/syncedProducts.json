@@ -118,8 +118,8 @@
     "imageUrl": "/LINEA/images/dynamic/Flowing_Silence_Pot/1.png",
     "gallery": [
       "/LINEA/images/dynamic/Flowing_Silence_Pot/1.png",
-      "/LINEA/images/dynamic/Flowing_Silence_Pot/2.png",
-      "/LINEA/images/dynamic/Flowing_Silence_Pot/3.png"
+      "/LINEA/images/dynamic/Flowing_Silence_Pot/2.jpg",
+      "/LINEA/images/dynamic/Flowing_Silence_Pot/3.jpg"
     ],
     "features": [
       "Continuous Geometry",
@@ -166,6 +166,38 @@
     ],
     "shopeeUrl": "https://shopee.tw/linea.design.tw",
     "sortNumber": 5
+  },
+  {
+    "id": "recXB9peN1TOkH9vL",
+    "name": "Milky Way Flow",
+    "nameZh": "銀光河",
+    "tagline": "Nebulae in light.",
+    "taglineZh": "光之星雲",
+    "description": "Layered surfaces that breathe under illumination, swirling like cosmic nebulae.",
+    "descriptionZh": "層疊的表面在光照下呼吸，如宇宙星雲般旋轉流動。",
+    "longDescription": "Like the gentle flow of the Milky Way, light drifts and expands through space. Layered surfaces breathe under illumination, swirling like cosmic nebulae. This light object transforms the atmosphere of a room, creating a soft, dimensional glow.",
+    "longDescriptionZh": "如銀河般溫柔流動，光線在空間中漂浮、擴展。層疊的表面在照明下彷彿有了呼吸，像宇宙星雲般盤旋。這件光之雕塑轉化了空間的氛圍，創造出柔軟而具深度的光暈。",
+    "price": 28000,
+    "category": "LIGHT",
+    "categoryZh": "燈具",
+    "imageUrl": "/LINEA/images/dynamic/Milky_Way_Flow/1.jpg",
+    "gallery": [
+      "/LINEA/images/dynamic/Milky_Way_Flow/1.jpg",
+      "/LINEA/images/dynamic/Milky_Way_Flow/2.jpg",
+      "/LINEA/images/dynamic/Milky_Way_Flow/3.jpg"
+    ],
+    "features": [
+      "Layered Diffusion",
+      "Ambient Glow",
+      "Sculptural Statement"
+    ],
+    "featuresZh": [
+      "層疊漫射技術",
+      "氛圍光感",
+      "雕塑感造型"
+    ],
+    "shopeeUrl": "https://shopee.tw/linea.design.tw",
+    "sortNumber": 6
   },
   {
     "id": "rectAw5ygeDOUwCpC",
