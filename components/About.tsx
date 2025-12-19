@@ -86,8 +86,8 @@ const About: React.FC = () => {
       {/* Designer Introduction */}
       <div id="designers" className="py-24 px-6 md:px-12 bg-[#2C2A26] text-[#F5F2EB]">
         <div className="max-w-[1800px] mx-auto">
-          <div className="flex flex-col md:flex-row items-baseline gap-4 mb-16 border-b border-[#F5F2EB]/10 pb-8">
-            <h2 className="text-4xl md:text-5xl font-serif leading-tight">Designers.</h2>
+          <div className="flex flex-col items-center text-center gap-2 mb-20">
+            <h2 className="text-4xl md:text-5xl font-serif leading-tight font-light">Designers</h2>
             <h3 className="text-xl md:text-2xl font-light text-[#A8A29E]">設計師/建築師</h3>
           </div>
 
