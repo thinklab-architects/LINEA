@@ -24,9 +24,21 @@ const ParallaxMedia: React.FC<ParallaxMediaProps> = ({
     const containerRef = useRef<HTMLDivElement>(null);
     const mediaWrapperRef = useRef<HTMLDivElement>(null);
     const videoRef = useRef<HTMLVideoElement>(null);
+    const [isMobile, setIsMobile] = React.useState(false);
 
     // Auto-detect type if not provided
     const isVideo = type === 'video' || src.match(/\.(mp4|webm|mov)$/i);
+
+    useEffect(() => {
+        const checkMobile = () => {
+            setIsMobile(window.matchMedia('(max-width: 768px)').matches);
+        };
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+        return () => window.removeEventListener('resize', checkMobile);
+    }, []);
+
+    const enableScrubbing = scrollScrub && !isMobile;
 
     useEffect(() => {
         let animationFrameId: number;
@@ -111,11 +123,13 @@ const ParallaxMedia: React.FC<ParallaxMediaProps> = ({
                     <video
                         ref={videoRef}
                         className={`w-full h-full object-cover ${mediaClassName}`}
-                        // Only autoplay if scrubbing is NOT enabled
-                        autoPlay={!scrollScrub}
+                        // Only autoplay if scrubbing is NOT enabled (or if on mobile)
+                        autoPlay={!enableScrubbing}
                         muted
-                        loop={!scrollScrub}
+                        loop={!enableScrubbing}
                         playsInline
+                        webkit-playsinline="true"
+                        preload="auto"
                         poster={poster}
                     >
                         <source src={src} type="video/mp4" />

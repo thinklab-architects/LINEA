@@ -56,8 +56,9 @@ const About: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[80vh]">
         <div className="order-2 lg:order-1 relative h-[500px] lg:h-auto overflow-hidden group">
           <ParallaxMedia
-            src="https://videos.pexels.com/video-files/2759477/2759477-hd_1920_1080_30fps.mp4"
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
             type="video"
+            poster="https://images.unsplash.com/photo-1628133287820-2f3bbe35d55b?auto=format&fit=crop&q=80&w=1200"
             alt="White fluid abstract form"
             className="w-full h-full"
             mediaClassName="transition-transform duration-[2s] group-hover:scale-105" // Preserve hover scale if possible
@@ -100,8 +101,9 @@ const About: React.FC = () => {
         </div>
         <div className="relative h-[500px] lg:h-auto overflow-hidden group">
           <ParallaxMedia
-            src="https://videos.pexels.com/video-files/3163534/3163534-hd_1920_1080_30fps.mp4"
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
             type="video"
+            poster="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200"
             alt="Intricate white texture"
             className="w-full h-full"
             mediaClassName="transition-transform duration-[2s] group-hover:scale-105 brightness-90 grayscale"
