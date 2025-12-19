@@ -41,7 +41,7 @@ const About: React.FC = () => {
             alt="LINEA Design Studio - Digital Prototyping"
             className="w-full h-[400px] mt-12"
             imgClassName="grayscale contrast-[0.9] brightness-110"
-            speed={-0.05} // Slower background movement
+            speed={-0.15} // Slower background movement
           />
           <p className="text-sm font-medium uppercase tracking-widest text-[#A8A29E] mt-4">
             The Process: Digital Craft / 數位工藝
@@ -57,7 +57,7 @@ const About: React.FC = () => {
             alt="White fluid abstract form"
             className="w-full h-full"
             imgClassName="transition-transform duration-[2s] group-hover:scale-105" // Preserve hover scale if possible
-            speed={0.08}
+            speed={0.15}
           />
         </div>
         <div className="order-1 lg:order-2 flex flex-col justify-center p-12 lg:p-24 bg-[#D6D1C7]">
@@ -99,7 +99,7 @@ const About: React.FC = () => {
             alt="Intricate white texture"
             className="w-full h-full"
             imgClassName="transition-transform duration-[2s] group-hover:scale-105 brightness-90 grayscale"
-            speed={0.08}
+            speed={0.15}
           />
         </div>
       </div>

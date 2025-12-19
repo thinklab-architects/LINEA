@@ -1,12 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
 
-interface ParallaxImageProps {
-    src: string;
-    alt: string;
-    className?: string; // Class for the outer container
-    imgClassName?: string; // Class for the img element (e.g. grayscale, hover effects)
-    speed?: number; // Parallax speed factor (e.g. 0.1)
-}
 
 import React, { useRef, useEffect } from 'react';
 
