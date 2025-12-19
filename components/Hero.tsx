@@ -6,7 +6,7 @@
 
 import React, { useState, useEffect } from 'react';
 import cover1 from '../images/cover page/1.png';
-import cover2 from '../images/cover page/2.JPG';
+import cover2 from '../images/cover page/2.jpg';
 
 const Hero: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
