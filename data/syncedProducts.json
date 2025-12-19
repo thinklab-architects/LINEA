@@ -234,6 +234,40 @@
     "sortNumber": 7
   },
   {
+    "id": "recKvFdLWz9jKIgxt",
+    "name": "Zephyr Vessel",
+    "nameZh": "衍波器",
+    "tagline": "Fluidity in structure.",
+    "taglineZh": "流轉之形，光影共鳴。",
+    "description": "A sculptural planter that explores the interplay of light and shadow through its dynamic, flowing form. It cradles nature within its crafted contours.",
+    "descriptionZh": "雕塑之器，以流動之姿，捕捉光影，盛載自然之生命。",
+    "longDescription": "Inspired by the gentle ripple of air and the organic unfolding of life, the Zephyr Vessel transforms the act of planting into an art form. Its undulating surfaces are meticulously crafted, inviting light to dance across its folds, creating a mesmerizing play of illumination and depth. This piece embodies LINEA's philosophy, where digital precision meets the poetic essence of nature, offering a sanctuary for botanical life to thrive within architectural elegance.",
+    "longDescriptionZh": "衍波器承襲自然之輕柔律動，融匯數位工藝之精粹。其蜿蜒曲面，非僅塑形，更引光線流淌其間，幻化為無盡之光影敘事。此作，乃LINEA對極簡語彙之詮釋，使物質與虛空對話，令植物於建築詩意中，尋得棲所，續寫生長之哲思。",
+    "price": 7200,
+    "category": "HOME",
+    "categoryZh": "家飾",
+    "imageUrl": "/LINEA/images/dynamic/Zephyr_Vessel/1.png",
+    "gallery": [
+      "/LINEA/images/dynamic/Zephyr_Vessel/1.png",
+      "/LINEA/images/dynamic/Zephyr_Vessel/2.png",
+      "/LINEA/images/dynamic/Zephyr_Vessel/3.png"
+    ],
+    "features": [
+      "Biomorphic, flowing design",
+      "Optimized for light interaction",
+      "Durable, architectural-grade material",
+      "Seamless integration with natural elements"
+    ],
+    "featuresZh": [
+      "仿生流線設計",
+      "光影互動優化",
+      "建築級材料選用",
+      "自然元素和諧共生"
+    ],
+    "shopeeUrl": "https://shopee.tw/linea.design.tw",
+    "sortNumber": 9999
+  },
+  {
     "id": "recZSaHJkibs3wAwP",
     "name": "Ripple Vessel",
     "nameZh": "褶流域",
