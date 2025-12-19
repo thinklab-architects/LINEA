@@ -16,7 +16,7 @@
     "gallery": [
       "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.png",
       "/LINEA/images/dynamic/Virtual_Corridors_Vases/2.png",
-      "/LINEA/images/dynamic/Virtual_Corridors_Vases/3.png"
+      "/LINEA/images/dynamic/Virtual_Corridors_Vases/3.JPG"
     ],
     "features": [
       "Intricate, open-weave structural",
@@ -37,7 +37,7 @@
   {
     "id": "recZiYw7p1TGjmYnJ",
     "name": "Aether Spire",
-    "nameZh": "交織",
+    "nameZh": "交織柱",
     "tagline": "Interweaving light and form.",
     "taglineZh": "光影交織，結構新生。",
     "description": "A sculptural vessel where organic lines converge to create a dynamic interplay of light and shadow.",
@@ -71,7 +71,7 @@
   {
     "id": "rec50K1dU9jgdtGJ6",
     "name": "Spira Vessel",
-    "nameZh": "凝波白",
+    "nameZh": "凝白波",
     "tagline": "Sculpting the ephemeral.",
     "taglineZh": "形塑流動，凝練瞬息永恆。",
     "description": "A sculptural vessel embodying dynamic motion within a static form, meticulously crafted to elevate natural beauty.",
@@ -105,7 +105,7 @@
   {
     "id": "recdGPK6ohYJYI7LM",
     "name": "Flowing Silence Pot",
-    "nameZh": "謐謐盆",
+    "nameZh": "靜謐盆",
     "tagline": "Where motion meets stillness.",
     "taglineZh": "當動態遇見靜止",
     "description": "Soft, continuous, and endlessly evolving curves that trace the rhythm of light and air.",
@@ -118,8 +118,8 @@
     "imageUrl": "/LINEA/images/dynamic/Flowing_Silence_Pot/1.png",
     "gallery": [
       "/LINEA/images/dynamic/Flowing_Silence_Pot/1.png",
-      "/LINEA/images/dynamic/Flowing_Silence_Pot/2.png",
-      "/LINEA/images/dynamic/Flowing_Silence_Pot/3.png"
+      "/LINEA/images/dynamic/Flowing_Silence_Pot/2.jpg",
+      "/LINEA/images/dynamic/Flowing_Silence_Pot/3.jpg"
     ],
     "features": [
       "Continuous Geometry",
@@ -137,7 +137,7 @@
   {
     "id": "rec4H5t8zRuoUV22R",
     "name": "Lumina Petals Earrings",
-    "nameZh": "疊曦",
+    "nameZh": "曦影疊",
     "tagline": "Ephemeral forms, captured light.",
     "taglineZh": "光影織羅，凝華於耳。",
     "description": "Layered translucent petals with a central crystal capture and refract light, embodying ethereal grace.",
@@ -147,10 +147,10 @@
     "price": 3800,
     "category": "JEWELRY",
     "categoryZh": "飾品",
-    "imageUrl": "/LINEA/images/dynamic/Lumina_Petals_Earrings/1.png",
+    "imageUrl": "/LINEA/images/dynamic/Lumina_Petals_Earrings/1.jpg",
     "gallery": [
-      "/LINEA/images/dynamic/Lumina_Petals_Earrings/1.png",
-      "/LINEA/images/dynamic/Lumina_Petals_Earrings/2.png"
+      "/LINEA/images/dynamic/Lumina_Petals_Earrings/1.jpg",
+      "/LINEA/images/dynamic/Lumina_Petals_Earrings/2.jpg"
     ],
     "features": [
       "Multi-layered translucent design",
@@ -168,9 +168,41 @@
     "sortNumber": 5
   },
   {
+    "id": "recXB9peN1TOkH9vL",
+    "name": "Milky Way Flow",
+    "nameZh": "銀光河",
+    "tagline": "Nebulae in light.",
+    "taglineZh": "光之星雲",
+    "description": "Layered surfaces that breathe under illumination, swirling like cosmic nebulae.",
+    "descriptionZh": "層疊的表面在光照下呼吸，如宇宙星雲般旋轉流動。",
+    "longDescription": "Like the gentle flow of the Milky Way, light drifts and expands through space. Layered surfaces breathe under illumination, swirling like cosmic nebulae. This light object transforms the atmosphere of a room, creating a soft, dimensional glow.",
+    "longDescriptionZh": "如銀河般溫柔流動，光線在空間中漂浮、擴展。層疊的表面在照明下彷彿有了呼吸，像宇宙星雲般盤旋。這件光之雕塑轉化了空間的氛圍，創造出柔軟而具深度的光暈。",
+    "price": 28000,
+    "category": "LIGHT",
+    "categoryZh": "燈具",
+    "imageUrl": "/LINEA/images/dynamic/Milky_Way_Flow/1.jpg",
+    "gallery": [
+      "/LINEA/images/dynamic/Milky_Way_Flow/1.jpg",
+      "/LINEA/images/dynamic/Milky_Way_Flow/2.jpg",
+      "/LINEA/images/dynamic/Milky_Way_Flow/3.jpg"
+    ],
+    "features": [
+      "Layered Diffusion",
+      "Ambient Glow",
+      "Sculptural Statement"
+    ],
+    "featuresZh": [
+      "層疊漫射技術",
+      "氛圍光感",
+      "雕塑感造型"
+    ],
+    "shopeeUrl": "https://shopee.tw/linea.design.tw",
+    "sortNumber": 6
+  },
+  {
     "id": "rectAw5ygeDOUwCpC",
     "name": "Velo Lamp",
-    "nameZh": "漣緒",
+    "nameZh": "漣光緒",
     "tagline": "Where light flows, form unfolds.",
     "taglineZh": "光無常形，褶疊為境。",
     "description": "The Velo Lamp casts a gentle, ambient glow from its exquisitely folded shade, a study in organic geometry. Its form is a dialogue between light and structure, defining space with soft illumination.",
@@ -204,7 +236,7 @@
   {
     "id": "recKvFdLWz9jKIgxt",
     "name": "Zephyr Vessel",
-    "nameZh": "衍器",
+    "nameZh": "衍波器",
     "tagline": "Fluidity in structure.",
     "taglineZh": "流轉之形，光影共鳴。",
     "description": "A sculptural planter that explores the interplay of light and shadow through its dynamic, flowing form. It cradles nature within its crafted contours.",
@@ -238,7 +270,7 @@
   {
     "id": "recZSaHJkibs3wAwP",
     "name": "Ripple Vessel",
-    "nameZh": "褶域",
+    "nameZh": "褶流域",
     "tagline": "Where geometry embraces fluidity.",
     "taglineZh": "方寸間，流光賦形。",
     "description": "This sculptural vessel transforms space through its elegant, ripple-like folds, offering a minimalist sanctuary for botanical arrangements.",
@@ -272,7 +304,7 @@
   {
     "id": "recyeCRsNJAtx8kEN",
     "name": "Vortex Vessel",
-    "nameZh": "旋流",
+    "nameZh": "旋流域",
     "tagline": "The Geometry of Flow.",
     "taglineZh": "光影邊界，凝結之詩。",
     "description": "A sculptural vessel exploring the dynamic tension of a spiraling form, meticulously crafted to invite interplay of light and shadow.",
