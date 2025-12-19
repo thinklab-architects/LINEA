@@ -5,7 +5,7 @@
 
 
 import React, { useState, useEffect } from 'react';
-import cover1 from '../images/cover page/1.JPG';
+import cover1 from '../images/cover page/1.png';
 import cover2 from '../images/cover page/2.JPG';
 
 const Hero: React.FC = () => {
