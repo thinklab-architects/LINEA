@@ -232,5 +232,73 @@
     ],
     "shopeeUrl": "https://shopee.tw/linea.design.tw",
     "sortNumber": 7
+  },
+  {
+    "id": "recZSaHJkibs3wAwP",
+    "name": "Ripple Vessel",
+    "nameZh": "褶流域",
+    "tagline": "Where geometry embraces fluidity.",
+    "taglineZh": "方寸間，流光賦形。",
+    "description": "This sculptural vessel transforms space through its elegant, ripple-like folds, offering a minimalist sanctuary for botanical arrangements.",
+    "descriptionZh": "此雕塑般花器，以優雅波紋之褶，轉化空間氣韻，為花藝展演提供一處極簡靜謐之境。",
+    "longDescription": "Inspired by the organic undulations found in nature, yet crafted with digital precision, the Ripple Vessel explores the tension between structural form and fluid motion. Its distinct pleated surface is designed to capture and refract light, creating a subtle play of shadows that shifts throughout the day. More than a simple container, it is an architectural object that imbues any interior with a sense of calm and considered design, celebrating material honesty in its elegant silhouette.",
+    "longDescriptionZh": "「褶流之器」靈感源於自然界有機律動，然以數位精工鑄就，探究結構與流動間之微妙張力。其獨特褶紋表面，旨在捕捉與折射光線，營造隨日時移轉之光影戲碼。此器非僅承載之具，亦為空間增添靜謐與深思之建築性物件，以優雅輪廓，頌揚材質之本真。",
+    "price": 6800,
+    "category": "HOME",
+    "categoryZh": "家飾",
+    "imageUrl": "/LINEA/images/dynamic/Ripple_Vessel/1.png",
+    "gallery": [
+      "/LINEA/images/dynamic/Ripple_Vessel/1.png",
+      "/LINEA/images/dynamic/Ripple_Vessel/2.png",
+      "/LINEA/images/dynamic/Ripple_Vessel/3.png"
+    ],
+    "features": [
+      "Digitally crafted pleated form",
+      "Interplay of light and shadow",
+      "Minimalist, sculptural presence",
+      "Durable, sophisticated finish"
+    ],
+    "featuresZh": [
+      "數位精工褶紋造型",
+      "光影交錯，層次豐盈",
+      "極簡雕塑美學",
+      "精緻耐久飾面"
+    ],
+    "shopeeUrl": "https://shopee.tw/linea.design.tw",
+    "sortNumber": 9999
+  },
+  {
+    "id": "recyeCRsNJAtx8kEN",
+    "name": "Vortex Vessel",
+    "nameZh": "旋流域",
+    "tagline": "The Geometry of Flow.",
+    "taglineZh": "光影邊界，凝結之詩。",
+    "description": "A sculptural vessel exploring the dynamic tension of a spiraling form, meticulously crafted to invite interplay of light and shadow.",
+    "descriptionZh": "此器形塑螺旋之動態張力，精工細作，引光影入畫。",
+    "longDescription": "Inspired by the organic elegance of natural vortices and the precision of digital craft, the Vortex Vessel reimagines the classic vase. Its intricate helical structure, meticulously rendered, creates a captivating dance of light and shadow across its matte surface. This piece serves not merely as a container but as a standalone architectural sculpture, defining space with its fluid geometry and material honesty. It embodies LINEA's philosophy of finding profound beauty in structural complexity and minimalist expression.",
+    "longDescriptionZh": "旋流之器，啟發自自然渦流之有機雅緻與數位工藝之精確。其複雜之螺旋結構，經巧手呈現，於啞光表面映現光影婆娑之舞。此物非僅盛器，乃一獨立之建築雕塑，以流動幾何與材質之本真，界定空間。體現LINEA之哲學：於結構之繁複與極簡之表達中，尋得深邃之美。",
+    "price": 12800,
+    "category": "HOME",
+    "categoryZh": "家飾",
+    "imageUrl": "/LINEA/images/dynamic/Vortex_Vessel/1.png",
+    "gallery": [
+      "/LINEA/images/dynamic/Vortex_Vessel/1.png",
+      "/LINEA/images/dynamic/Vortex_Vessel/2.png",
+      "/LINEA/images/dynamic/Vortex_Vessel/3.jpg"
+    ],
+    "features": [
+      "Dynamic helical form",
+      "Matte ceramic-like finish",
+      "Architectural sculptural presence",
+      "Crafted for light interplay"
+    ],
+    "featuresZh": [
+      "動態螺旋形態",
+      "啞光陶瓷質感",
+      "具建築雕塑之氣韻",
+      "為光線互動而生"
+    ],
+    "shopeeUrl": "https://shopee.tw/linea.design.tw",
+    "sortNumber": 9999
   }
 ]
