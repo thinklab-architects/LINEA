@@ -56,13 +56,14 @@ const About: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[80vh]">
         <div className="order-2 lg:order-1 relative h-[500px] lg:h-auto overflow-hidden group">
           <ParallaxMedia
-            src="images/white-flower.png"
-            type="image"
+            src="images/flower.mp4"
+            type="video"
             poster="images/white-flower.png"
-            alt="Minimalist white flower blooming"
+            alt="Optimized white flower blooming animation"
             className="w-full h-full"
             mediaClassName="transition-transform duration-[2s] group-hover:scale-105"
             speed={0.15}
+            scrollScrub={true}
           />
         </div>
         <div className="order-1 lg:order-2 flex flex-col justify-center p-12 lg:p-24 bg-[#D6D1C7]">
