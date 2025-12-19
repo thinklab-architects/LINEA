@@ -43,6 +43,7 @@ const About: React.FC = () => {
             className="w-full h-[400px] mt-12"
             mediaClassName="grayscale contrast-[0.9] brightness-110"
             speed={-0.15} // Slower background movement
+            scrollScrub={true}
           />
           <p className="text-sm font-medium uppercase tracking-widest text-[#A8A29E] mt-4">
             The Process: Digital Craft / 數位工藝
@@ -103,6 +104,7 @@ const About: React.FC = () => {
             className="w-full h-full"
             mediaClassName="transition-transform duration-[2s] group-hover:scale-105 brightness-90 grayscale"
             speed={0.15}
+            scrollScrub={true}
           />
         </div>
       </div>
