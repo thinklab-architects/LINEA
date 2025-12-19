@@ -22,6 +22,15 @@ const About: React.FC = () => {
           </h3>
         </div>
         <div className="md:w-2/3 max-w-2xl">
+          <ParallaxMedia
+            src="https://videos.pexels.com/video-files/855564/855564-hd_1920_1080_25fps.mp4"
+            type="video"
+            alt="LINEA Design Studio - Digital Prototyping"
+            className="w-full h-[400px] mb-12"
+            mediaClassName="grayscale contrast-[0.9] brightness-110"
+            speed={-0.15} // Slower background movement
+            scrollScrub={true}
+          />
           <p className="text-lg md:text-xl text-[#5D5A53] font-light leading-relaxed mb-6">
             LINEA explores the intersection of architectural discipline and organic freedom. We believe that true beauty lies in the balance between the computed and the chaotic.
           </p>
@@ -36,15 +45,7 @@ const About: React.FC = () => {
             由建築師轉型的設計師領軍，我們的工作室運用數位工具模仿自然的生長模式。從龍捲風的螺旋到銀河的流動，我們的物件不只是被「製造」出來，而是從程式碼的線條中「生長」出來，凝固成靜謐、流動的形態。
           </p>
 
-          <ParallaxMedia
-            src="https://videos.pexels.com/video-files/855564/855564-hd_1920_1080_25fps.mp4"
-            type="video"
-            alt="LINEA Design Studio - Digital Prototyping"
-            className="w-full h-[400px] mt-12"
-            mediaClassName="grayscale contrast-[0.9] brightness-110"
-            speed={-0.15} // Slower background movement
-            scrollScrub={true}
-          />
+
           <p className="text-sm font-medium uppercase tracking-widest text-[#A8A29E] mt-4">
             The Process: Digital Craft / 數位工藝
           </p>
