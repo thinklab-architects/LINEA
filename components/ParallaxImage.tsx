@@ -8,58 +8,71 @@ interface ParallaxImageProps {
     speed?: number; // Parallax speed factor (e.g. 0.1)
 }
 
+import React, { useRef, useEffect } from 'react';
+
+interface ParallaxImageProps {
+    src: string;
+    alt: string;
+    className?: string; // Class for the outer container
+    imgClassName?: string; // Class for the img element
+    speed?: number; // Parallax speed factor (e.g. 0.1)
+}
+
 const ParallaxImage: React.FC<ParallaxImageProps> = ({
     src,
     alt,
     className = "",
     imgClassName = "",
-    speed = 0.08
+    speed = 0.15
 }) => {
     const containerRef = useRef<HTMLDivElement>(null);
-    const [offset, setOffset] = useState(0);
+    const imageWrapperRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         let animationFrameId: number;
+        let lastScrollY = window.scrollY;
 
-        const handleScroll = () => {
-            if (!containerRef.current) return;
+        const updatePosition = () => {
+            if (!containerRef.current || !imageWrapperRef.current) return;
 
             const rect = containerRef.current.getBoundingClientRect();
             const windowHeight = window.innerHeight;
-            const windowWidth = window.innerWidth;
 
-            // Only animate if in view (with some buffer)
+            // Check if in viewport (with buffer)
             if (rect.top < windowHeight && rect.bottom > 0) {
-                // Calculate relative position based on center of viewport
                 const centerY = windowHeight / 2;
                 const elementCenterY = rect.top + rect.height / 2;
-
-                // Distance from center
                 const distanceFromCenter = elementCenterY - centerY;
 
-                // Apply speed - negative speed makes it move "slower" than scroll (parallax bg feel)
-                // or positive to move faster. 
-                // Typically for "image moving inside container", we shift the image opposite to scroll to keep it centered or create depth.
-                // Let's use a subtle movement.
-                setOffset(distanceFromCenter * speed);
+                // Calculate offset
+                const offset = distanceFromCenter * speed;
+
+                // Direct DOM manipulation for performance
+                imageWrapperRef.current.style.transform = `translate3d(0, ${offset}px, 0)`;
             }
         };
 
-        const animate = () => {
-            handleScroll();
-            animationFrameId = requestAnimationFrame(animate);
+        const handleScroll = () => {
+            lastScrollY = window.scrollY;
+            // Request animation frame to sync with refresh rate
+            if (!animationFrameId) {
+                animationFrameId = requestAnimationFrame(() => {
+                    updatePosition();
+                    animationFrameId = 0;
+                });
+            }
         };
 
-        // Use requestAnimationFrame for smoother updates, or just scroll listener
-        // Just scroll listener is often enough for simple parallax if not heavy
-        window.addEventListener('scroll', handleScroll);
-        window.addEventListener('resize', handleScroll);
-        handleScroll(); // Initial
+        // Initial position
+        updatePosition();
+
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        window.addEventListener('resize', updatePosition);
 
         return () => {
             window.removeEventListener('scroll', handleScroll);
-            window.removeEventListener('resize', handleScroll);
-            cancelAnimationFrame(animationFrameId);
+            window.removeEventListener('resize', updatePosition);
+            if (animationFrameId) cancelAnimationFrame(animationFrameId);
         };
     }, [speed]);
 
@@ -67,11 +80,11 @@ const ParallaxImage: React.FC<ParallaxImageProps> = ({
         <div ref={containerRef} className={`overflow-hidden relative ${className}`}>
             {/* 
         Wrapper for the translation. 
-        Height is set to >100% (e.g. 120%) and top is negative to allow movement up/down without showing gaps.
+        Height is 140% to allow for significant movement (-20% top offset).
       */}
             <div
-                className="absolute inset-x-0 -top-[15%] h-[130%] w-full will-change-transform"
-                style={{ transform: `translateY(${offset}px)` }}
+                ref={imageWrapperRef}
+                className="absolute inset-x-0 -top-[20%] h-[140%] w-full will-change-transform"
             >
                 <img
                     src={src}
