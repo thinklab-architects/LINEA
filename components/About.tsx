@@ -93,8 +93,8 @@ const About: React.FC = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
             {[
               {
-                name: "Designer One",
-                nameZh: "設計師一",
+                name: "KE LIU",
+                nameZh: "劉可",
                 slogan: "Crafting silence through lines.",
                 img: "images/designers/1.png"
               },
