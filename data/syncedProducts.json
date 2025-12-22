@@ -104,7 +104,7 @@
   },
   {
     "id": "recdGPK6ohYJYI7LM",
-    "name": "Flowing Silence Pot",
+    "name": "Flowing Silence Plate",
     "nameZh": "謐謐盆",
     "tagline": "Where motion meets stillness.",
     "taglineZh": "當動態遇見靜止",
@@ -115,11 +115,11 @@
     "price": 0,
     "category": "HOME",
     "categoryZh": "家飾",
-    "imageUrl": "/LINEA/images/dynamic/Flowing_Silence_Pot/1.png",
+    "imageUrl": "/LINEA/images/dynamic/Flowing_Silence_Plate/1.png",
     "gallery": [
-      "/LINEA/images/dynamic/Flowing_Silence_Pot/1.png",
-      "/LINEA/images/dynamic/Flowing_Silence_Pot/2.png",
-      "/LINEA/images/dynamic/Flowing_Silence_Pot/3.png"
+      "/LINEA/images/dynamic/Flowing_Silence_Plate/1.png",
+      "/LINEA/images/dynamic/Flowing_Silence_Plate/2.png",
+      "/LINEA/images/dynamic/Flowing_Silence_Plate/3.png"
     ],
     "features": [
       "Continuous Geometry",
@@ -203,8 +203,8 @@
   },
   {
     "id": "recKvFdLWz9jKIgxt",
-    "name": "Zephyr Vessel",
-    "nameZh": "衍器",
+    "name": "Velo Vessel",
+    "nameZh": "漣器",
     "tagline": "Fluidity in structure.",
     "taglineZh": "流轉之形，光影共鳴。",
     "description": "A sculptural planter that explores the interplay of light and shadow through its dynamic, flowing form. It cradles nature within its crafted contours.",
@@ -214,11 +214,11 @@
     "price": 0,
     "category": "HOME",
     "categoryZh": "家飾",
-    "imageUrl": "/LINEA/images/dynamic/Zephyr_Vessel/1.png",
+    "imageUrl": "/LINEA/images/dynamic/Velo_Vessel/1.png",
     "gallery": [
-      "/LINEA/images/dynamic/Zephyr_Vessel/1.png",
-      "/LINEA/images/dynamic/Zephyr_Vessel/2.png",
-      "/LINEA/images/dynamic/Zephyr_Vessel/3.png"
+      "/LINEA/images/dynamic/Velo_Vessel/1.png",
+      "/LINEA/images/dynamic/Velo_Vessel/2.png",
+      "/LINEA/images/dynamic/Velo_Vessel/3.png"
     ],
     "features": [
       "Biomorphic, flowing design",
