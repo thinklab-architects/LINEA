@@ -147,10 +147,11 @@
     "price": 0,
     "category": "JEWELRY",
     "categoryZh": "飾品",
-    "imageUrl": "/LINEA/images/dynamic/Lumina_Petals_Earrings/1.png",
+    "imageUrl": "/LINEA/images/dynamic/Lumina_Petals_Earrings/1.jpg",
     "gallery": [
-      "/LINEA/images/dynamic/Lumina_Petals_Earrings/1.png",
-      "/LINEA/images/dynamic/Lumina_Petals_Earrings/2.png"
+      "/LINEA/images/dynamic/Lumina_Petals_Earrings/1.jpg",
+      "/LINEA/images/dynamic/Lumina_Petals_Earrings/2.jpg",
+      "/LINEA/images/dynamic/Lumina_Petals_Earrings/3.jpg"
     ],
     "features": [
       "Multi-layered translucent design",
@@ -166,40 +167,6 @@
     ],
     "shopeeUrl": "https://shopee.tw/linea.design.tw",
     "sortNumber": 5
-  },
-  {
-    "id": "rectAw5ygeDOUwCpC",
-    "name": "Velo Lamp",
-    "nameZh": "漣緒",
-    "tagline": "Where light flows, form unfolds.",
-    "taglineZh": "光無常形，褶疊為境。",
-    "description": "The Velo Lamp casts a gentle, ambient glow from its exquisitely folded shade, a study in organic geometry. Its form is a dialogue between light and structure, defining space with soft illumination.",
-    "descriptionZh": "漣光緒檯燈以其精緻摺疊的燈罩，散發柔和環境光，乃有機幾何之研究。其形體為光與結構之對話，以溫婉之光輝界定空間。",
-    "longDescription": "Inspired by the rhythmic undulations found in nature and the precise craft of digital fabrication, the Velo Lamp embodies LINEA's commitment to material honesty and sculptural presence. Each fold and curve of the shade is meticulously engineered to harness and diffuse light, transforming harsh luminescence into a soft, inviting radiance. This piece transcends mere utility, serving as a contemplative object that shapes the atmosphere of a room, creating subtle plays of light and shadow that shift with the observer's gaze. It is a testament to the beauty found at the intersection of fluid form and static design.",
-    "longDescriptionZh": "漣光緒檯燈之靈感，源於自然界之律動波紋，並融合數位精工之藝，彰顯LINEA對材質本真與雕塑語彙之追求。燈罩上每一摺痕與弧線，皆經精密設計，旨在捕捉並柔化光源，將刺目光芒轉化為溫潤宜人之輝。此作超越器物實用之範疇，儼然成為一思辨之物，形塑空間氛圍，其光影流轉之妙，隨觀者視角而異。是為流動形體與靜態設計交會之際，所綻放之美學印記。",
-    "price": 0,
-    "category": "LIGHT",
-    "categoryZh": "燈具",
-    "imageUrl": "/LINEA/images/dynamic/Velo_Lamp/1.png",
-    "gallery": [
-      "/LINEA/images/dynamic/Velo_Lamp/1.png",
-      "/LINEA/images/dynamic/Velo_Lamp/2.png",
-      "/LINEA/images/dynamic/Velo_Lamp/3.JPG"
-    ],
-    "features": [
-      "Sculptural folded shade design",
-      "Diffused, warm ambient light",
-      "Minimalist slender profile",
-      "Crafted from durable, translucent material"
-    ],
-    "featuresZh": [
-      "雕塑感摺疊燈罩",
-      "柔和溫暖環境光",
-      "極簡纖細燈身",
-      "採用耐用半透材質精製"
-    ],
-    "shopeeUrl": "https://shopee.tw/linea.design.tw",
-    "sortNumber": 7
   },
   {
     "id": "recKvFdLWz9jKIgxt",
@@ -233,41 +200,7 @@
       "自然元素和諧共生"
     ],
     "shopeeUrl": "https://shopee.tw/linea.design.tw",
-    "sortNumber": 9999
-  },
-  {
-    "id": "recZSaHJkibs3wAwP",
-    "name": "Ripple Vessel",
-    "nameZh": "褶域",
-    "tagline": "Where geometry embraces fluidity.",
-    "taglineZh": "方寸間，流光賦形。",
-    "description": "This sculptural vessel transforms space through its elegant, ripple-like folds, offering a minimalist sanctuary for botanical arrangements.",
-    "descriptionZh": "此雕塑般花器，以優雅波紋之褶，轉化空間氣韻，為花藝展演提供一處極簡靜謐之境。",
-    "longDescription": "Inspired by the organic undulations found in nature, yet crafted with digital precision, the Ripple Vessel explores the tension between structural form and fluid motion. Its distinct pleated surface is designed to capture and refract light, creating a subtle play of shadows that shifts throughout the day. More than a simple container, it is an architectural object that imbues any interior with a sense of calm and considered design, celebrating material honesty in its elegant silhouette.",
-    "longDescriptionZh": "「褶流之器」靈感源於自然界有機律動，然以數位精工鑄就，探究結構與流動間之微妙張力。其獨特褶紋表面，旨在捕捉與折射光線，營造隨日時移轉之光影戲碼。此器非僅承載之具，亦為空間增添靜謐與深思之建築性物件，以優雅輪廓，頌揚材質之本真。",
-    "price": 0,
-    "category": "HOME",
-    "categoryZh": "家飾",
-    "imageUrl": "/LINEA/images/dynamic/Ripple_Vessel/1.png",
-    "gallery": [
-      "/LINEA/images/dynamic/Ripple_Vessel/1.png",
-      "/LINEA/images/dynamic/Ripple_Vessel/2.png",
-      "/LINEA/images/dynamic/Ripple_Vessel/3.png"
-    ],
-    "features": [
-      "Digitally crafted pleated form",
-      "Interplay of light and shadow",
-      "Minimalist, sculptural presence",
-      "Durable, sophisticated finish"
-    ],
-    "featuresZh": [
-      "數位精工褶紋造型",
-      "光影交錯，層次豐盈",
-      "極簡雕塑美學",
-      "精緻耐久飾面"
-    ],
-    "shopeeUrl": "https://shopee.tw/linea.design.tw",
-    "sortNumber": 9999
+    "sortNumber": 6
   },
   {
     "id": "recyeCRsNJAtx8kEN",
@@ -301,6 +234,108 @@
       "為光線互動而生"
     ],
     "shopeeUrl": "https://shopee.tw/linea.design.tw",
-    "sortNumber": 9999
+    "sortNumber": 7
+  },
+  {
+    "id": "rectAw5ygeDOUwCpC",
+    "name": "Velo Lamp",
+    "nameZh": "漣緒",
+    "tagline": "Where light flows, form unfolds.",
+    "taglineZh": "光無常形，褶疊為境。",
+    "description": "The Velo Lamp casts a gentle, ambient glow from its exquisitely folded shade, a study in organic geometry. Its form is a dialogue between light and structure, defining space with soft illumination.",
+    "descriptionZh": "漣光緒檯燈以其精緻摺疊的燈罩，散發柔和環境光，乃有機幾何之研究。其形體為光與結構之對話，以溫婉之光輝界定空間。",
+    "longDescription": "Inspired by the rhythmic undulations found in nature and the precise craft of digital fabrication, the Velo Lamp embodies LINEA's commitment to material honesty and sculptural presence. Each fold and curve of the shade is meticulously engineered to harness and diffuse light, transforming harsh luminescence into a soft, inviting radiance. This piece transcends mere utility, serving as a contemplative object that shapes the atmosphere of a room, creating subtle plays of light and shadow that shift with the observer's gaze. It is a testament to the beauty found at the intersection of fluid form and static design.",
+    "longDescriptionZh": "漣光緒檯燈之靈感，源於自然界之律動波紋，並融合數位精工之藝，彰顯LINEA對材質本真與雕塑語彙之追求。燈罩上每一摺痕與弧線，皆經精密設計，旨在捕捉並柔化光源，將刺目光芒轉化為溫潤宜人之輝。此作超越器物實用之範疇，儼然成為一思辨之物，形塑空間氛圍，其光影流轉之妙，隨觀者視角而異。是為流動形體與靜態設計交會之際，所綻放之美學印記。",
+    "price": 0,
+    "category": "LIGHT",
+    "categoryZh": "燈具",
+    "imageUrl": "/LINEA/images/dynamic/Velo_Lamp/1.png",
+    "gallery": [
+      "/LINEA/images/dynamic/Velo_Lamp/1.png",
+      "/LINEA/images/dynamic/Velo_Lamp/2.png",
+      "/LINEA/images/dynamic/Velo_Lamp/3.JPG"
+    ],
+    "features": [
+      "Sculptural folded shade design",
+      "Diffused, warm ambient light",
+      "Minimalist slender profile",
+      "Crafted from durable, translucent material"
+    ],
+    "featuresZh": [
+      "雕塑感摺疊燈罩",
+      "柔和溫暖環境光",
+      "極簡纖細燈身",
+      "採用耐用半透材質精製"
+    ],
+    "shopeeUrl": "https://shopee.tw/linea.design.tw",
+    "sortNumber": 8
+  },
+  {
+    "id": "recZSaHJkibs3wAwP",
+    "name": "Ripple Vessel",
+    "nameZh": "褶域",
+    "tagline": "Where geometry embraces fluidity.",
+    "taglineZh": "方寸間，流光賦形。",
+    "description": "This sculptural vessel transforms space through its elegant, ripple-like folds, offering a minimalist sanctuary for botanical arrangements.",
+    "descriptionZh": "此雕塑般花器，以優雅波紋之褶，轉化空間氣韻，為花藝展演提供一處極簡靜謐之境。",
+    "longDescription": "Inspired by the organic undulations found in nature, yet crafted with digital precision, the Ripple Vessel explores the tension between structural form and fluid motion. Its distinct pleated surface is designed to capture and refract light, creating a subtle play of shadows that shifts throughout the day. More than a simple container, it is an architectural object that imbues any interior with a sense of calm and considered design, celebrating material honesty in its elegant silhouette.",
+    "longDescriptionZh": "「褶流之器」靈感源於自然界有機律動，然以數位精工鑄就，探究結構與流動間之微妙張力。其獨特褶紋表面，旨在捕捉與折射光線，營造隨日時移轉之光影戲碼。此器非僅承載之具，亦為空間增添靜謐與深思之建築性物件，以優雅輪廓，頌揚材質之本真。",
+    "price": 0,
+    "category": "HOME",
+    "categoryZh": "家飾",
+    "imageUrl": "/LINEA/images/dynamic/Ripple_Vessel/1.png",
+    "gallery": [
+      "/LINEA/images/dynamic/Ripple_Vessel/1.png",
+      "/LINEA/images/dynamic/Ripple_Vessel/2.png",
+      "/LINEA/images/dynamic/Ripple_Vessel/3.png"
+    ],
+    "features": [
+      "Digitally crafted pleated form",
+      "Interplay of light and shadow",
+      "Minimalist, sculptural presence",
+      "Durable, sophisticated finish"
+    ],
+    "featuresZh": [
+      "數位精工褶紋造型",
+      "光影交錯，層次豐盈",
+      "極簡雕塑美學",
+      "精緻耐久飾面"
+    ],
+    "shopeeUrl": "https://shopee.tw/linea.design.tw",
+    "sortNumber": 9
+  },
+  {
+    "id": "rec26nxNl1UaCQHkF",
+    "name": "Aeolian Wing",
+    "nameZh": "疊光之羽",
+    "tagline": "Sculpted movement, caught in light.",
+    "taglineZh": "風之軌跡，光耀凝華",
+    "description": "An earring capturing the fluid motion of nature within a meticulously crafted metallic form.",
+    "descriptionZh": "以精妙工藝，捕捉自然流動之姿，凝於光耀之上，化為耳畔詩篇。",
+    "longDescription": "The Aeolian Wing earring is a testament to the interplay of organic inspiration and digital precision. Its intricate, layered structure evokes the gentle undulations of wind-swept petals or fluid currents, realized through advanced fabrication techniques. The interplay of light across its sculpted surfaces creates a dynamic spectrum of metallic hues, allowing the piece to shift and breathe with every movement. A wearable sculpture, it embodies LINEA's commitment to material honesty and structural elegance, transforming raw elements into a poetic expression of form.",
+    "longDescriptionZh": "「疊光之羽」耳飾，乃有機靈感與數位精確交織之明證。其精微疊構，猶如風拂花瓣之輕柔波動，或水波之漣漪，皆以先進製程得以具現。光線流轉於其雕塑般之表面，創造出金屬色澤之動態光譜，使此作隨佩戴者之舉手投足而生動。此為一可穿戴之雕塑，體現LINEA對材質本真與結構雅緻之承諾，將質樸之元素轉化為形式之詩意表達。",
+    "price": 9800,
+    "category": "JEWELRY",
+    "categoryZh": "飾品",
+    "imageUrl": "/LINEA/images/dynamic/Aeolian_Wing/1.jpg",
+    "gallery": [
+      "/LINEA/images/dynamic/Aeolian_Wing/1.jpg",
+      "/LINEA/images/dynamic/Aeolian_Wing/2.jpg",
+      "/LINEA/images/dynamic/Aeolian_Wing/3.HEIC"
+    ],
+    "features": [
+      "Architectural, layered form",
+      "Gradient metallic finish",
+      "Lightweight, dynamic design",
+      "Crafted with digital precision"
+    ],
+    "featuresZh": [
+      "建築式層疊造型",
+      "漸變金屬光澤",
+      "輕盈動態設計",
+      "數位精密工藝鑄造"
+    ],
+    "shopeeUrl": "https://shopee.tw/linea.design.tw",
+    "sortNumber": 10
   }
 ]
