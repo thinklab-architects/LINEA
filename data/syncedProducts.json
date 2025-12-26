@@ -12,11 +12,11 @@
     "price": 0,
     "category": "HOME",
     "categoryZh": "家飾",
-    "imageUrl": "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.png",
+    "imageUrl": "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.jpg",
     "gallery": [
-      "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.png",
-      "/LINEA/images/dynamic/Virtual_Corridors_Vases/2.png",
-      "/LINEA/images/dynamic/Virtual_Corridors_Vases/3.png"
+      "/LINEA/images/dynamic/Virtual_Corridors_Vases/1.jpg",
+      "/LINEA/images/dynamic/Virtual_Corridors_Vases/2.jpg",
+      "/LINEA/images/dynamic/Virtual_Corridors_Vases/3.jpg"
     ],
     "features": [
       "Intricate, open-weave structural",
